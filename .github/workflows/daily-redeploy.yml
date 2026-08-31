@@ -1,0 +1,32 @@
+# Stößt einmal täglich einen Vercel-Redeploy an, damit vergangene Termine aus
+# content/termine.json automatisch in die Chronik rutschen (die Seite ist ein
+# statischer Export – die Umsortierung passiert beim Build).
+#
+# Einrichtung (einmalig):
+#   1. Vercel → Projekt bblessed → Settings → Git → "Deploy Hooks" → neuen Hook
+#      für Branch "main" anlegen, URL kopieren.
+#   2. GitHub → Repo bblessed → Settings → Secrets and variables → Actions →
+#      neues Secret "VERCEL_DEPLOY_HOOK" mit dieser URL.
+# Ohne das Secret tut der Job nichts (die Umsortierung passiert dann eben beim
+# nächsten normalen Push).
+
+name: Daily redeploy
+
+on:
+  schedule:
+    - cron: "20 4 * * *" # täglich ~05:20/06:20 deutscher Zeit
+  workflow_dispatch: {}
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel deploy hook
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "Kein VERCEL_DEPLOY_HOOK-Secret gesetzt – übersprungen."
+            exit 0
+          fi
+          curl -fsSL -X POST "$HOOK" && echo "Redeploy angestoßen."

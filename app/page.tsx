@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { about, gigs, formatGigDate } from "@/lib/content";
+import { about, gigs, upcomingTermine, formatGigDate } from "@/lib/content";
+import { UpcomingDates } from "@/components/UpcomingDates";
 
 const HIGHLIGHT_SLUGS = [
   "anlassen-nuerburgring-2010",
@@ -72,6 +73,9 @@ export default function HomePage() {
           Mehr über die Band →
         </Link>
       </section>
+
+      {/* Anstehende Termine */}
+      <UpcomingDates termine={upcomingTermine} />
 
       {/* Highlights */}
       <section className="border-t border-[var(--color-border)] bg-[var(--color-bg-alt)]">

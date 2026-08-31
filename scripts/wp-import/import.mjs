@@ -390,12 +390,8 @@ const GIGS = [
     posterFile: "HBJ-2025.JPG",
     posterOnly: true,
   },
-  {
-    slug: "happy-birthday-jesus-2026",
-    date: "2026-12-23",
-    title: "Happy Birthday Jesus 2026",
-    body: HBJ_BODY,
-  },
+  // Kuenftige Termine (auch HBJ 2026) stehen in content/termine.json und
+  // rutschen automatisch in die Chronik, sobald ihr Datum vergangen ist.
 ];
 
 // Bandmitglieder (aus der Seite „Über uns“).
