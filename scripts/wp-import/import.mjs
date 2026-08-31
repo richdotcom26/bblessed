@@ -25,6 +25,10 @@ const ROOT = path.resolve(import.meta.dirname, "..", "..");
 const DATA_DIR = path.join(import.meta.dirname, "data");
 const UPLOADS_ROOT =
   "D:/8 BACKUPS/10 Eigene Homepages/2023-09-01 1und1 Webspace vor Löschung/BBWP/wp-content/uploads";
+// Zusaetzliche lokale Quellen (nur auf Rainers Rechner):
+const PHOTO_ROOT = "P:/4 PHOTO/Eigene Camera/Bands/Band Bblessed"; // Foto-Archiv nach Events
+const POSTER_ROOT =
+  "C:/Users/RainerWülbeck/OneDrive - dWERK GmbH & Co KG/Claude Code 1/BBlessed/Plakate"; // HBJ-Plakate
 const PUBLIC_IMAGES = path.join(ROOT, "public", "images");
 const PUBLIC_MEDIA = path.join(ROOT, "public", "media");
 const CONTENT_DIR = path.join(ROOT, "content");
@@ -58,6 +62,14 @@ const GIGS = [
     body: "<p>Aus einer Gitarrentruppe bei Jugendandachten rund um den Billardtisch wird eine Band – jede Menge Gottesdienste, später als fester Bestandteil von <em>Jesus Inside</em> in Herbede.</p>",
   },
   {
+    slug: "gig-beblessed-2006",
+    date: "2006-11-24",
+    title: "Gig (Be Blessed)",
+    body: "<p>Ein früher Auftritt – damals noch als „Be Blessed“.</p>",
+    photoDir: "2006_11_24 Gig BeBlessed",
+    photoLimit: 24,
+  },
+  {
     slug: "biker-gottesdienst-herbede-2007",
     date: "2007-05-19",
     title: "Biker-Gottesdienst Herbede",
@@ -71,24 +83,40 @@ const GIGS = [
     poster: 2469,
   },
   {
+    slug: "jogodi-2007",
+    date: "2007-11-11",
+    title: "JoGoDi – Jugendgottesdienst",
+    body: "<p>Musik beim Jugendgottesdienst.</p>",
+    photoDir: "2007_11_11 Jogodi",
+  },
+  {
     slug: "thanks-mlk-witten-2008",
     date: "2008-02-08",
     title: "„Thanks“ – MLK Witten",
     body: "",
-    poster: 2428,
+    photoDir: "2008_02_08 Thanx",
+    photoLimit: 36,
   },
   {
     slug: "konficamp-hamm-2008",
     date: "2008-06-19",
     title: "KonfiCamp in Hamm",
     body: "<p>Der Tag war perfekt: Sonne, wunderschöne Bühne, bestgelaunte Konfis. Doch dann die unverhoffte Unwetterwarnung – Sturzbäche kamen vom Himmel. Alles half nichts. Wir haben mit den verbliebenen Konfis unter Regenschirmen, Plastiktüten und Bierzelttischen ein grandioses Konzert gefeiert. Sensationell!</p>",
-    poster: 2407,
+    photoDir: "2008_06_09 BBLESSED Hamm",
+    photoLimit: 40,
   },
   {
     slug: "sponsoren-dankeschoen-2008",
     date: "2008-07-06",
     title: "Sponsoren-Dankeschön-Gottesdienst",
     body: "<p>Unser Dank an alle Sponsoren, die den Umbau unserer Kirche ermöglicht haben!</p>",
+  },
+  {
+    slug: "nuerburgring-2009",
+    date: "2009-05-30",
+    title: "„Anlassen“ am Nürburgring 2009",
+    body: "<p>Bikergottesdienst am Ring – ein erster Vorgeschmack auf das Jahr darauf.</p>",
+    photoDir: "2009_05_30 BB Nürburgring",
   },
   {
     slug: "kirchentag-bremen-2009",
@@ -108,6 +136,8 @@ const GIGS = [
     date: "2011-06-02",
     title: "Ev. Kirchentag Dresden 2011",
     body: "",
+    photoDir: "2011",
+    photoLimit: 15,
   },
   {
     slug: "biker-gottesdienst-halver-april-2012",
@@ -178,7 +208,7 @@ const GIGS = [
     date: "2012-12-23",
     title: "Happy Birthday Jesus 2012",
     body: "<p>Der besondere Gottesdienst am 23. Dezember um 23:30 Uhr in der evangelischen Kirche in Herbede.</p>",
-    poster: 2488,
+    posterFile: "HBJ-2012.jpg",
     posterOnly: true,
   },
   {
@@ -198,7 +228,7 @@ const GIGS = [
     date: "2013-12-23",
     title: "Happy Birthday Jesus 2013",
     body: "",
-    poster: 2497,
+    posterFile: "HBJ-2013.jpg",
     posterOnly: true,
   },
   {
@@ -213,7 +243,7 @@ const GIGS = [
     date: "2014-12-23",
     title: "Happy Birthday Jesus 2014",
     body: "",
-    poster: 2657,
+    posterFile: "HBJ-2014.JPG",
     posterOnly: true,
   },
   {
@@ -221,7 +251,7 @@ const GIGS = [
     date: "2015-12-23",
     title: "Happy Birthday Jesus 2015",
     body: "",
-    poster: 2492,
+    posterFile: "HBJ-2015.jpg",
     posterOnly: true,
   },
   {
@@ -237,7 +267,7 @@ const GIGS = [
     date: "2016-12-23",
     title: "Happy Birthday Jesus 2016",
     body: "",
-    poster: 2494,
+    posterFile: "HBJ-2016.jpg",
     posterOnly: true,
   },
   {
@@ -252,7 +282,7 @@ const GIGS = [
     date: "2017-12-23",
     title: "Happy Birthday Jesus 2017",
     body: "",
-    poster: 2498,
+    posterFile: "HBJ-2017.jpg",
     posterOnly: true,
   },
   {
@@ -274,7 +304,7 @@ const GIGS = [
     date: "2018-12-23",
     title: "Happy Birthday Jesus 2018",
     body: "<p>Am 23. Dezember feiern wir wieder in Jesus’ Geburtstag hinein. Viel Musik, die Weihnachtsgeschichte und eine Ansprache von Thorsten Schröder.</p>",
-    poster: 2636,
+    posterFile: "HBJ-2018.jpg",
     posterOnly: true,
   },
   {
@@ -283,6 +313,14 @@ const GIGS = [
     title: "Wir sind beim DEKT in Dortmund",
     body: "<p>BBlessed beim Deutschen Evangelischen Kirchentag 2019 in Dortmund.</p>",
     poster: 2665,
+  },
+  {
+    slug: "happy-birthday-jesus-2019",
+    date: "2019-12-23",
+    title: "Happy Birthday Jesus 2019",
+    body: HBJ_BODY,
+    posterFile: "HBJ-2019.JPG",
+    posterOnly: true,
   },
   {
     slug: "happy-birthday-jesus-livestream-2020",
@@ -309,33 +347,40 @@ const GIGS = [
       "<p>Auch in diesem Jahr findet dieser besondere Gottesdienst wieder am 23. Dezember um 23:30 Uhr statt – nicht in der evangelischen Kirche in Herbede, sondern direkt live aus dem Tonstudio in Euer Wohnzimmer. Also, schaltet ein!</p>",
     pdf: 2777,
     pdfLabel: "Songbook zum Livestream (PDF)",
-    poster: 2789,
+    posterFile: "HBJ-2021.jpg",
   },
-  // Ab 2022 ohne Material aus dem alten Backup - die HBJ-Tradition am 23.12.
-  // laeuft weiter. Texte/Fotos hier bei Bedarf ergaenzen.
+  // Ab 2022: Plakate aus dem Ordner "BBlessed/Plakate". 2026 noch ohne Plakat.
   {
     slug: "happy-birthday-jesus-2022",
     date: "2022-12-23",
     title: "Happy Birthday Jesus 2022",
     body: HBJ_BODY,
+    posterFile: "HBJ-2022.jpeg",
+    posterOnly: true,
   },
   {
     slug: "happy-birthday-jesus-2023",
     date: "2023-12-23",
     title: "Happy Birthday Jesus 2023",
     body: HBJ_BODY,
+    posterFile: "HBJ-2023.jpg",
+    posterOnly: true,
   },
   {
     slug: "happy-birthday-jesus-2024",
     date: "2024-12-23",
     title: "Happy Birthday Jesus 2024",
     body: HBJ_BODY,
+    posterFile: "HBJ-2024.jpg",
+    posterOnly: true,
   },
   {
     slug: "happy-birthday-jesus-2025",
     date: "2025-12-23",
     title: "Happy Birthday Jesus 2025",
     body: HBJ_BODY,
+    posterFile: "HBJ-2025.JPG",
+    posterOnly: true,
   },
   {
     slug: "happy-birthday-jesus-2026",
@@ -375,6 +420,7 @@ function localFileForRel(rel) {
 }
 function localFileForAtt(att) {
   if (!att) return null;
+  if (att.file) return fs.existsSync(att.file) ? att.file : null; // direkter Pfad (Plakate/Fotos)
   if (att.attachedFile) {
     const f = localFileForRel(att.attachedFile);
     if (f) return f;
@@ -382,6 +428,24 @@ function localFileForAtt(att) {
   const m = String(att.guid || "").match(/\/wp-content\/uploads\/(.+)$/);
   if (m) return localFileForRel(decodeURIComponent(m[1]));
   return null;
+}
+
+// Bilddateien (jpg/jpeg/png) eines Ordners, sortiert; .picasaoriginals raus.
+function listPhotos(absDir, limit) {
+  if (!fs.existsSync(absDir)) {
+    console.warn("  ! Foto-Ordner fehlt:", absDir);
+    return [];
+  }
+  let files = fs
+    .readdirSync(absDir)
+    .filter((f) => /\.(jpe?g|png)$/i.test(f))
+    .sort((a, b) => a.localeCompare(b, "de", { numeric: true }));
+  if (limit && files.length > limit) {
+    // gleichmaessig ueber den Ordner verteilt auswaehlen statt nur die ersten N
+    const step = files.length / limit;
+    files = Array.from({ length: limit }, (_, i) => files[Math.floor(i * step)]);
+  }
+  return files.map((f) => ({ file: path.join(absDir, f), title: "" }));
 }
 
 const resizeCache = new Map();
@@ -472,14 +536,22 @@ async function main() {
     const destDir = path.join(PUBLIC_IMAGES, "chronik", g.slug);
     const publicPrefix = `/images/chronik/${g.slug}`;
 
-    const galleryAtts = (g.gallery || (attByParent.get(idFromSlug(g)) || []).map((a) => a.id))
-      .map((id) => attById.get(id))
-      .filter(Boolean);
+    // Foto-Quelle: expliziter Ordner (photoDir) hat Vorrang, sonst WP-Galerie.
+    const galleryAtts = g.photoDir
+      ? listPhotos(path.join(PHOTO_ROOT, g.photoDir), g.photoLimit)
+      : (g.gallery || (attByParent.get(idFromSlug(g)) || []).map((a) => a.id))
+          .map((id) => attById.get(id))
+          .filter(Boolean);
 
     let poster = null;
-    if (g.poster) {
-      poster = await copyResized(attById.get(g.poster), destDir, publicPrefix, {
-        maxWidth: 1400,
+    const posterSrc = g.posterFile
+      ? { file: path.join(POSTER_ROOT, g.posterFile), title: g.title }
+      : g.poster
+        ? attById.get(g.poster)
+        : null;
+    if (posterSrc) {
+      poster = await copyResized(posterSrc, destDir, publicPrefix, {
+        maxWidth: 1600,
         makeThumb: true,
         thumbFit: "inside",
       });
