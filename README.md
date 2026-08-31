@@ -30,6 +30,8 @@ npm run build      # erzeugt out/  (kompletter statischer Export)
 | `content/gigs.json` | Chronik (36 Einträge, 2004–2021) – **hier Texte/Bilder pflegen** |
 | `content/media.json` | Audio-Samples + Imagevideo (YouTube-ID) |
 | `content/kontakt.json` | E-Mail + Impressum-Daten |
+| `public/images/hero-worship.jpg` | Hintergrundfoto im Startseiten-Banner – Foto: Vitalii Onyshchuk / Unsplash (Unsplash-Lizenz, frei nutzbar) |
+| `public/images/logo-mask.png` | Bandlogo als CSS-Maske (aus `BeBlessedBig.bmp`) |
 | `public/images/chronik/<slug>/` | Fotos je Chronik-Eintrag (Original + `-thumb`) |
 | `public/media/audio/` | MP3-Samples · `public/media/chronik/` | PDFs |
 | `app/` | Seiten: `/`, `/ueber-uns`, `/chronik` (+ `[slug]`), `/medien`, `/kontakt` |

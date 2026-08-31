@@ -16,37 +16,45 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="border-b border-[var(--color-border)] bg-[var(--color-bg-alt)]">
-        <div className="mx-auto max-w-3xl px-4 py-20 text-center sm:py-28">
-          <p className="text-xs uppercase tracking-[0.35em] text-[var(--color-accent-2)]">
+      <section className="relative isolate overflow-hidden border-b border-[var(--color-border)] bg-[#1a1310]">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/hero-worship.jpg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-center opacity-70"
+        />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#1a1210]/75 via-[#2a1a12]/60 to-[#160f0c]/90" />
+        <div className="mx-auto max-w-3xl px-4 py-24 text-center sm:py-32">
+          <p className="text-xs uppercase tracking-[0.35em] text-[#e2b483]">
             worship band · seit 2004
           </p>
           <h1 className="mt-6 flex justify-center">
             <span className="sr-only">BBLESSED</span>
             <span
-              className="logo-mark h-16 w-auto text-[var(--color-accent)] sm:h-24"
+              className="logo-mark h-16 w-auto text-[#f7efe2] drop-shadow-[0_2px_12px_rgba(0,0,0,0.55)] sm:h-24"
               role="img"
               aria-hidden="true"
             />
           </h1>
-          <p className="mx-auto mt-6 max-w-xl font-display text-xl italic text-[var(--color-fg)] sm:text-2xl">
+          <p className="mx-auto mt-6 max-w-xl font-display text-xl italic text-[#f7efe2] drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)] sm:text-2xl">
             „Wir sind nicht nur Musiker, die christliche Musik machen, sondern Christen, die Musik
             machen.“
           </p>
-          <p className="mx-auto mt-6 max-w-lg text-[var(--color-fg-muted)]">
+          <p className="mx-auto mt-6 max-w-lg text-white/75">
             Aus Witten-Herbede im Ruhrpott. Zwischen Rock, Pop und Folk – bei Gottesdiensten,
             Kirchentagen, Bikergottesdiensten und Konzerten.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link
               href="/chronik"
-              className="rounded-full bg-[var(--color-accent)] px-6 py-2.5 text-sm font-medium text-white transition hover:bg-[var(--color-accent-2)]"
+              className="rounded-full bg-[var(--color-accent)] px-6 py-2.5 text-sm font-medium text-white shadow-lg transition hover:bg-[var(--color-accent-2)]"
             >
               Zur Chronik
             </Link>
             <Link
               href="/medien"
-              className="rounded-full border border-[var(--color-accent)] px-6 py-2.5 text-sm font-medium text-[var(--color-accent)] transition hover:bg-[var(--color-accent)] hover:text-white"
+              className="rounded-full border border-white/45 px-6 py-2.5 text-sm font-medium text-white transition hover:bg-white hover:text-[#1a1310]"
             >
               Musik hören
             </Link>
