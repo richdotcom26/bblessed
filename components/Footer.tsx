@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { kontakt } from "@/lib/content";
+import { EmailLink } from "@/components/EmailLink";
 
 export function Footer() {
   return (
@@ -20,12 +20,7 @@ export function Footer() {
           </Link>
         </p>
         <p className="mt-2">
-          <a
-            href={`mailto:${kontakt.email}`}
-            className="underline underline-offset-2 hover:text-[var(--color-accent)]"
-          >
-            {kontakt.email}
-          </a>
+          <EmailLink className="underline underline-offset-2 hover:text-[var(--color-accent)]" />
         </p>
       </div>
     </footer>

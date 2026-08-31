@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { kontakt } from "@/lib/content";
+import { EmailLink } from "@/components/EmailLink";
 
 export const metadata: Metadata = {
   title: "Kontakt",
   description:
-    "Kontakt und Impressum von BBLESSED – Anfragen für Gottesdienste, Kirchentage und Konzerte an kontakt@bblessed.de.",
+    "Kontakt und Impressum von BBLESSED – Anfragen für Gottesdienste, Kirchentage und Konzerte per E-Mail.",
   alternates: { canonical: "/kontakt" },
 };
 
@@ -17,13 +18,7 @@ export default function KontaktPage() {
 
       <p className="mt-8 text-lg">
         Anfragen für Gottesdienste, Kirchentage oder Konzerte gerne an{" "}
-        <a
-          href={`mailto:${kontakt.email}`}
-          className="text-[var(--color-accent)] underline underline-offset-2"
-        >
-          {kontakt.email}
-        </a>
-        .
+        <EmailLink className="text-[var(--color-accent)] underline underline-offset-2" />.
       </p>
 
       <hr className="my-10 border-[var(--color-border)]" />
