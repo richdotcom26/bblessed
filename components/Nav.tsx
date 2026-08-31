@@ -17,7 +17,7 @@ export function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[var(--color-bg)]">
+    <header className="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[var(--color-bg)]/95 backdrop-blur-sm">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <Link
           href="/"
@@ -25,20 +25,20 @@ export function Nav() {
           onClick={() => setOpen(false)}
           aria-label="BBLESSED – zur Startseite"
         >
-          <span className="logo-mark h-5 w-auto text-[var(--color-accent)]" role="img" aria-hidden="true" />
-          <span className="hidden text-xs uppercase tracking-[0.2em] text-[var(--color-fg-muted)] sm:inline">
+          <span className="logo-mark h-5 w-auto text-[var(--color-fg)]" role="img" aria-hidden="true" />
+          <span className="hidden text-[0.65rem] uppercase tracking-[0.25em] text-[var(--color-fg-muted)] sm:inline">
             worship band
           </span>
         </Link>
 
-        <nav className="hidden gap-6 md:flex">
+        <nav className="hidden gap-7 md:flex">
           {links.map((l) => {
             const active = l.href === "/" ? pathname === "/" : pathname.startsWith(l.href);
             return (
               <Link
                 key={l.href}
                 href={l.href}
-                className={`text-sm font-medium transition-colors ${
+                className={`font-display-upper text-sm tracking-[0.12em] transition-colors ${
                   active
                     ? "text-[var(--color-accent)]"
                     : "text-[var(--color-fg)] hover:text-[var(--color-accent)]"
@@ -66,7 +66,7 @@ export function Nav() {
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="py-2 text-sm font-medium text-[var(--color-fg)]"
+              className="font-display-upper py-2 text-base tracking-[0.12em] text-[var(--color-fg)]"
             >
               {l.label}
             </Link>

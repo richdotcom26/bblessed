@@ -9,8 +9,8 @@ export default function ChronikPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-16">
-      <h1 className="font-display text-4xl font-semibold text-[var(--color-accent)] sm:text-5xl">
-        Chronik
+      <h1 className="font-display-upper text-4xl text-[var(--color-fg)] sm:text-6xl">
+        <span className="text-[var(--color-accent)]">/</span> Chronik
       </h1>
       <p className="mt-4 max-w-xl text-[var(--color-fg-muted)]">
         Von der Gründung 2004 bis zu den Happy-Birthday-Jesus-Livestreams – {gigs.length} Einträge aus
@@ -21,7 +21,7 @@ export default function ChronikPage() {
       <div className="mt-12 space-y-12">
         {years.map(([year, list]) => (
           <section key={year}>
-            <h2 className="font-display text-2xl font-semibold text-[var(--color-accent-2)]">{year}</h2>
+            <h2 className="font-display-upper text-2xl text-[var(--color-accent-2)] sm:text-3xl">{year}</h2>
             <ol className="mt-4 space-y-4 border-l border-[var(--color-border)] pl-5">
               {list.map((g) => (
                 <li key={g.slug} className="relative">

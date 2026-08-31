@@ -6,13 +6,13 @@ export const metadata: Metadata = { title: "Über uns" };
 export default function UeberUnsPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-16">
-      <h1 className="font-display text-4xl font-semibold text-[var(--color-accent)] sm:text-5xl">
-        Über uns
+      <h1 className="font-display-upper text-4xl text-[var(--color-fg)] sm:text-6xl">
+        <span className="text-[var(--color-accent)]">/</span> Über uns
       </h1>
 
       <p className="mt-8 text-lg leading-relaxed">{about.intro}</p>
 
-      <blockquote className="my-10 border-l-4 border-[var(--color-accent)] pl-5 font-display text-2xl italic text-[var(--color-fg)]">
+      <blockquote className="my-10 border-l-4 border-[var(--color-accent)] pl-5 text-2xl italic text-[var(--color-fg)]">
         {about.quote}
       </blockquote>
 
@@ -20,7 +20,9 @@ export default function UeberUnsPage() {
 
       <p className="mt-6 text-[var(--color-fg-muted)]">Bis bald!</p>
 
-      <h2 className="mt-16 font-display text-3xl font-semibold text-[var(--color-fg)]">Die Band</h2>
+      <h2 className="mt-16 font-display-upper text-3xl text-[var(--color-fg)] sm:text-4xl">
+        <span className="text-[var(--color-accent)]">/</span> Die Band
+      </h2>
       <div className="mt-8 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
         {about.members.map((m) => (
           <figure key={m.name} className="text-center">

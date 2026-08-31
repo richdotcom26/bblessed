@@ -34,7 +34,7 @@ export default async function GigPage({ params }: { params: Promise<{ slug: stri
       </Link>
 
       <p className="mt-6 text-sm text-[var(--color-fg-muted)]">{formatGigDate(gig.date)}</p>
-      <h1 className="mt-1 font-display text-3xl font-semibold text-[var(--color-accent)] sm:text-4xl">
+      <h1 className="mt-1 font-display-upper text-3xl text-[var(--color-fg)] sm:text-5xl">
         {gig.title}
       </h1>
 

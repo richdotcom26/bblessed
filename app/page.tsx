@@ -37,7 +37,7 @@ export default function HomePage() {
               aria-hidden="true"
             />
           </h1>
-          <p className="mx-auto mt-6 max-w-xl font-display text-xl italic text-[#f7efe2] drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)] sm:text-2xl">
+          <p className="mx-auto mt-6 max-w-xl text-xl italic text-[#f7efe2] drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)] sm:text-2xl">
             „Wir sind nicht nur Musiker, die christliche Musik machen, sondern Christen, die Musik
             machen.“
           </p>
@@ -76,7 +76,9 @@ export default function HomePage() {
       {/* Highlights */}
       <section className="border-t border-[var(--color-border)] bg-[var(--color-bg-alt)]">
         <div className="mx-auto max-w-5xl px-4 py-16">
-          <h2 className="font-display text-3xl font-semibold text-[var(--color-fg)]">Highlights</h2>
+          <h2 className="font-display-upper text-3xl text-[var(--color-fg)] sm:text-4xl">
+            <span className="text-[var(--color-accent)]">/</span> Highlights
+          </h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-3">
             {highlights.map((g) => (
               <Link
@@ -106,7 +108,9 @@ export default function HomePage() {
       {/* Zuletzt */}
       <section className="mx-auto max-w-5xl px-4 py-16">
         <div className="flex items-baseline justify-between">
-          <h2 className="font-display text-3xl font-semibold text-[var(--color-fg)]">Zuletzt</h2>
+          <h2 className="font-display-upper text-3xl text-[var(--color-fg)] sm:text-4xl">
+            <span className="text-[var(--color-accent)]">/</span> Zuletzt
+          </h2>
           <Link
             href="/chronik"
             className="text-sm font-medium text-[var(--color-accent)] hover:text-[var(--color-accent-2)]"

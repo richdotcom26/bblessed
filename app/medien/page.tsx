@@ -7,8 +7,8 @@ export const metadata: Metadata = { title: "Medien" };
 export default function MedienPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-16">
-      <h1 className="font-display text-4xl font-semibold text-[var(--color-accent)] sm:text-5xl">
-        Medien
+      <h1 className="font-display-upper text-4xl text-[var(--color-fg)] sm:text-6xl">
+        <span className="text-[var(--color-accent)]">/</span> Medien
       </h1>
 
       <section className="mt-12">
