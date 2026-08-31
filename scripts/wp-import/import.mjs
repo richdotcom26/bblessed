@@ -397,7 +397,12 @@ const GIGS = [
 // Bandmitglieder (aus der Seite „Über uns“).
 const MEMBERS = [
   { name: "Marco Gibis", role: "Gesang, Akustik- und E-Gitarre", file: "2012/05/Marco.jpg", position: "center 20%" },
-  { name: "Rainer Wülbeck", role: "E-Gitarre und Akustikgitarre", file: "2012/06/1-IMG_01179.jpg" },
+  {
+    name: "Rainer Wülbeck",
+    role: "E-Gitarre und Akustikgitarre",
+    file: "C:/Users/RainerWülbeck/OneDrive - dWERK GmbH & Co KG/Claude Code 1/BBlessed/2024-04-22 08-05-18.jpeg",
+    position: "center 25%",
+  },
   { name: "Thomas Post", role: "Schlagzeug und Background-Gesang", file: "2015/04/ToPo.jpg" },
   { name: "Frank Nelle", role: "E-Bass und Kontrabass", file: "2013/07/FrankKopie.jpg" },
   { name: "Mandy Rohr", role: "Percussion und Multitalent", file: "2015/04/Mandy.jpg" },
@@ -602,8 +607,10 @@ async function main() {
   const members = [];
   for (const m of MEMBERS) {
     const destDir = path.join(PUBLIC_IMAGES, "band");
+    // absoluter Pfad (Laufwerksbuchstabe) -> direkt; sonst relativ zu UPLOADS_ROOT
+    const srcKey = /^[A-Za-z]:[\\/]/.test(m.file) ? { file: m.file } : { attachedFile: m.file };
     const r = await copyResized(
-      { id: `m-${m.name}`, title: m.name, attachedFile: m.file },
+      { id: `m-${m.name}`, title: m.name, ...srcKey },
       destDir,
       "/images/band",
       { maxWidth: 700, makeThumb: false }
