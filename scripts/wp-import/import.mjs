@@ -135,7 +135,9 @@ const GIGS = [
     slug: "kirchentag-dresden-2011",
     date: "2011-06-02",
     title: "Ev. Kirchentag Dresden 2011",
-    body: "",
+    body: "<p>Mit dem Jesus-Inside-Team beim Deutschen Evangelischen Kirchentag in Dresden – Auftritt, Stadt und ein paar Tage on the road.</p>",
+    photoDir: "P:/4 PHOTO/Eigene Camera/2011/2011-06-xx Kirchentag",
+    photoLimit: 30,
   },
   {
     slug: "shelter-from-the-rain-2011",
@@ -543,8 +545,10 @@ async function main() {
     const publicPrefix = `/images/chronik/${g.slug}`;
 
     // Foto-Quelle: expliziter Ordner (photoDir) hat Vorrang, sonst WP-Galerie.
+    // photoDir: relativ zu PHOTO_ROOT oder absoluter Pfad (Laufwerksbuchstabe).
+    const resolvePhotoDir = (d) => (/^([A-Za-z]:[\\/]|\/)/.test(d) ? d : path.join(PHOTO_ROOT, d));
     const galleryAtts = g.photoDir
-      ? listPhotos(path.join(PHOTO_ROOT, g.photoDir), g.photoLimit)
+      ? listPhotos(resolvePhotoDir(g.photoDir), g.photoLimit)
       : (g.gallery || (attByParent.get(idFromSlug(g)) || []).map((a) => a.id))
           .map((id) => attById.get(id))
           .filter(Boolean);

@@ -1921,10 +1921,227 @@
     "title": "Ev. Kirchentag Dresden 2011",
     "date": "2011-06-02",
     "year": 2011,
-    "bodyHtml": "",
-    "poster": null,
+    "bodyHtml": "<p>Mit dem Jesus-Inside-Team beim Deutschen Evangelischen Kirchentag in Dresden – Auftritt, Stadt und ein paar Tage on the road.</p>",
+    "poster": {
+      "src": "/images/chronik/kirchentag-dresden-2011/IMG_1110.jpg",
+      "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1110-thumb.jpg",
+      "w": 480,
+      "h": 480,
+      "alt": ""
+    },
     "posterOnly": false,
-    "images": [],
+    "images": [
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1110.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1110-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1117.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1117-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1169.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1169-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1174.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1174-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1178.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1178-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1187.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1187-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1191.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1191-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1196.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1196-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1200.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1200-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1205.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1205-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1209.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1209-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1215.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1215-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1221.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1221-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1226.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1226-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1230.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1230-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1234.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1234-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1238.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1238-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1243.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1243-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1248.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1248-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1252.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1252-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1258.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1258-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1262.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1262-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1269.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1269-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1273.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1273-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1278.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1278-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1282.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1282-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1290.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1290-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1296.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1296-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1301.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1301-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dresden-2011/IMG_1305.jpg",
+        "thumb": "/images/chronik/kirchentag-dresden-2011/IMG_1305-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      }
+    ],
     "youtube": null,
     "pdf": null
   },
