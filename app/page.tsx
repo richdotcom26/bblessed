@@ -16,15 +16,15 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative isolate overflow-hidden border-b border-[var(--color-border)] bg-[#1a1310]">
+      <section className="relative isolate overflow-hidden border-b border-[var(--color-border)] bg-[#160b06]">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/hero-worship.jpg"
           alt=""
           aria-hidden="true"
-          className="absolute inset-0 -z-10 h-full w-full object-cover object-center opacity-70"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-center opacity-90"
         />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#1a1210]/75 via-[#2a1a12]/60 to-[#160f0c]/90" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#160a04]/75 via-[#2c1206]/25 to-[#0f0703]/80" />
         <div className="mx-auto max-w-3xl px-4 py-24 text-center sm:py-32">
           <p className="text-xs uppercase tracking-[0.35em] text-[#e2b483]">
             worship band · seit 2004
