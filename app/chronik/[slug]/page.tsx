@@ -43,7 +43,9 @@ export default async function GigPage({ params }: { params: Promise<{ slug: stri
         <img
           src={gig.poster.src}
           alt={gig.poster.alt || gig.title}
-          className="mt-8 w-full max-w-md rounded-lg ring-1 ring-[var(--color-border)]"
+          width={gig.poster.w}
+          height={gig.poster.h}
+          className="mt-8 h-auto w-full max-w-md rounded-lg ring-1 ring-[var(--color-border)]"
         />
       )}
 

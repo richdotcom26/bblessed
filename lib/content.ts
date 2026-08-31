@@ -6,7 +6,7 @@ import gigsData from "@/content/gigs.json";
 import mediaData from "@/content/media.json";
 import kontaktData from "@/content/kontakt.json";
 
-export type Image = { src: string; thumb: string; alt: string };
+export type Image = { src: string; thumb: string; alt: string; w?: number; h?: number };
 
 export type Member = {
   name: string;

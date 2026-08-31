@@ -20,6 +20,8 @@
     "poster": {
       "src": "/images/chronik/biker-gottesdienst-herbede-2007/20160720_213402_HDR2.jpg",
       "thumb": "/images/chronik/biker-gottesdienst-herbede-2007/20160720_213402_HDR2-thumb.jpg",
+      "w": 480,
+      "h": 480,
       "alt": "20160720_213402_HDR~2"
     },
     "posterOnly": false,
@@ -27,6 +29,8 @@
       {
         "src": "/images/chronik/biker-gottesdienst-herbede-2007/20160720_213402_HDR2.jpg",
         "thumb": "/images/chronik/biker-gottesdienst-herbede-2007/20160720_213402_HDR2-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "20160720_213402_HDR~2"
       }
     ],
@@ -42,6 +46,8 @@
     "poster": {
       "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_35.jpg",
       "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_35-thumb.jpg",
+      "w": 640,
+      "h": 480,
       "alt": "Scharfe_Sachen_DEKT_07_35"
     },
     "posterOnly": false,
@@ -49,241 +55,337 @@
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_1.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_1-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_1"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_2.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_2-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_2"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_4.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_4-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_4"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_5.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_5-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_5"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_6.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_6-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_6"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_7.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_7-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_7"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_8.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_8-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_8"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_9.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_9-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_9"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_10.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_10-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_10"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_11.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_11-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_11"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_12.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_12-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_12"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_13.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_13-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_13"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_14.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_14-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_14"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_15.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_15-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_15"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_16.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_16-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_16"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_17.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_17-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_17"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_18.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_18-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_18"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_19.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_19-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_19"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_20.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_20-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_20"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_21.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_21-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_21"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_22.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_22-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_22"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_23.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_23-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_23"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_24.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_24-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_24"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_25.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_25-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_25"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_26.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_26-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_26"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_27.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_27-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_27"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_28.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_28-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_28"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_29.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_29-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_29"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_30.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_30-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_30"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_31.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_31-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_31"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_32.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_32-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_32"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_33.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_33-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_33"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_34.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_34-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_34"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_35.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_35-thumb.jpg",
+        "w": 640,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_35"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_36.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_36-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_36"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_37.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_37-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_37"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_38.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_38-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_38"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_39.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_39-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_39"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_40.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_40-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_40"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_41.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_41-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_41"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_42.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_42-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_42"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_43.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_43-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_43"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_44.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_44-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_44"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_45.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_45-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_45"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_46.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_46-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_46"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_47.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_47-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_47"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_48.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_48-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_48"
       },
       {
         "src": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_49.jpg",
         "thumb": "/images/chronik/kirchentag-koeln-2007/Scharfe_Sachen_DEKT_07_49-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "Scharfe_Sachen_DEKT_07_49"
       }
     ],
@@ -299,6 +401,8 @@
     "poster": {
       "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9262.jpg",
       "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9262-thumb.jpg",
+      "w": 640,
+      "h": 427,
       "alt": "thanx-9262"
     },
     "posterOnly": false,
@@ -306,91 +410,127 @@
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9120.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9120-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9120"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9123.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9123-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9123"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9133.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9133-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9133"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9138.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9138-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9138"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9150.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9150-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9150"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9152.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9152-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9152"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9153.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9153-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9153"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9179.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9179-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9179"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9181.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9181-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9181"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9186.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9186-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9186"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9228.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9228-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9228"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9232.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9232-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9232"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9262.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9262-thumb.jpg",
+        "w": 640,
+        "h": 427,
         "alt": "thanx-9262"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9268.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9268-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9268"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9273.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9273-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9273"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9281.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9281-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9281"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9312.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9312-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9312"
       },
       {
         "src": "/images/chronik/thanks-mlk-witten-2008/thanx-9332.jpg",
         "thumb": "/images/chronik/thanks-mlk-witten-2008/thanx-9332-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "thanx-9332"
       }
     ],
@@ -406,6 +546,8 @@
     "poster": {
       "src": "/images/chronik/konficamp-hamm-2008/hamm_0621.jpg",
       "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0621-thumb.jpg",
+      "w": 640,
+      "h": 427,
       "alt": "hamm_0621"
     },
     "posterOnly": false,
@@ -413,161 +555,225 @@
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0290.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0290-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0290"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0344.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0344-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0344"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0350.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0350-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0350"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0351.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0351-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0351"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0364.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0364-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0364"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0402.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0402-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0402"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0404.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0404-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0404"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0424.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0424-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0424"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0437.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0437-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0437"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0468.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0468-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0468"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0481.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0481-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0481"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0486.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0486-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0486"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0517.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0517-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0517"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0521.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0521-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0521"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0526.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0526-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0526"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0533.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0533-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0533"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0542.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0542-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0542"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0555.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0555-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0555"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0558.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0558-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0558"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0569.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0569-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0569"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0575.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0575-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0575"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0578.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0578-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0578"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0583.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0583-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0583"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0599.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0599-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0599"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0619.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0619-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0619"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0621.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0621-thumb.jpg",
+        "w": 640,
+        "h": 427,
         "alt": "hamm_0621"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0627.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0627-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0627"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0631.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0631-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0631"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0637.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0637-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0637"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0639.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0639-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0639"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0646.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0646-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0646"
       },
       {
         "src": "/images/chronik/konficamp-hamm-2008/hamm_0651.jpg",
         "thumb": "/images/chronik/konficamp-hamm-2008/hamm_0651-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "hamm_0651"
       }
     ],
@@ -583,6 +789,8 @@
     "poster": {
       "src": "/images/chronik/sponsoren-dankeschoen-2008/20160720_213323_HDR21.jpg",
       "thumb": "/images/chronik/sponsoren-dankeschoen-2008/20160720_213323_HDR21-thumb.jpg",
+      "w": 480,
+      "h": 480,
       "alt": "20160720_213323_HDR~2"
     },
     "posterOnly": false,
@@ -590,6 +798,8 @@
       {
         "src": "/images/chronik/sponsoren-dankeschoen-2008/20160720_213323_HDR21.jpg",
         "thumb": "/images/chronik/sponsoren-dankeschoen-2008/20160720_213323_HDR21-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "20160720_213323_HDR~2"
       }
     ],
@@ -617,6 +827,8 @@
     "poster": {
       "src": "/images/chronik/anlassen-nuerburgring-2010/Ring.png",
       "thumb": "/images/chronik/anlassen-nuerburgring-2010/Ring-thumb.png",
+      "w": 640,
+      "h": 311,
       "alt": "Ring"
     },
     "posterOnly": false,
@@ -624,426 +836,596 @@
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102307.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102307-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102309.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102309-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102310.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102310-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102312.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102312-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102313.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102313-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102317.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102317-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102319.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102319-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102323.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102323-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102324.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102324-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102327.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102327-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102328.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102328-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102330.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102330-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102333.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102333-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102335.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102335-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102337.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102337-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102339.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102339-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102342.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102342-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102343.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102343-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102354.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102354-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102358.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102358-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102359.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102359-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102361.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102361-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102362.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102362-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102364.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102364-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102365.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102365-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102369.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102369-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102370.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102370-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102371.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102371-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102372.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102372-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102373.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102373-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102375.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102375-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102377.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102377-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102379.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102379-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102380.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102380-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102381.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102381-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102384.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102384-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102385.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102385-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102408.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102408-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102409.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102409-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102412.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102412-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102413.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102413-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102414.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102414-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102421.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102421-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102424.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102424-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102425.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102425-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102427.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102427-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102430.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102430-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102432.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102432-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102432-2.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102432-2-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "SH102432-2"
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102434.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102434-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102435.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102435-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102439.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102439-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102445.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102445-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102446.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102446-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102447.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102447-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102468.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102468-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102471.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102471-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102474.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102474-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102476.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102476-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102479.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102479-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102480.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102480-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102481.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102481-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102482.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102482-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102483.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102483-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102484.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102484-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102485.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102485-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102486.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102486-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102487.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102487-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102490.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102490-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102495.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102495-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102504.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102504-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102507.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102507-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102513.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102513-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102517.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102517-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102519.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102519-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102523.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102523-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102530.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102530-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/SH102566.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/SH102566-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": ""
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/2012-HBJ.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/2012-HBJ-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "2012 HBJ"
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/2012-10-11-12_32_45.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/2012-10-11-12_32_45-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "2012-10-11 12.32.45"
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/2015-HBJ.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/2015-HBJ-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "2015 HBJ"
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/2015-12-19-WorshipSession.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/2015-12-19-WorshipSession-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "2015-12-19 WorshipSession"
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/2016-HBJ.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/2016-HBJ-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "2016 HBJ"
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/2013-HBJ.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/2013-HBJ-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "2013 HBJ"
       },
       {
         "src": "/images/chronik/anlassen-nuerburgring-2010/2017-HBJ.jpg",
         "thumb": "/images/chronik/anlassen-nuerburgring-2010/2017-HBJ-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "2017 HBJ"
       }
     ],
@@ -1107,6 +1489,8 @@
     "poster": {
       "src": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2086.jpg",
       "thumb": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2086-thumb.jpg",
+      "w": 640,
+      "h": 478,
       "alt": "IMG_2086"
     },
     "posterOnly": false,
@@ -1114,36 +1498,50 @@
       {
         "src": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2080.jpg",
         "thumb": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2080-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "IMG_2080"
       },
       {
         "src": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2081.jpg",
         "thumb": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2081-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "IMG_2081"
       },
       {
         "src": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2082.jpg",
         "thumb": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2082-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "IMG_2082"
       },
       {
         "src": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2083.jpg",
         "thumb": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2083-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "IMG_2083"
       },
       {
         "src": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2084.jpg",
         "thumb": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2084-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "IMG_2084"
       },
       {
         "src": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2085.jpg",
         "thumb": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2085-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "IMG_2085"
       },
       {
         "src": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2086.jpg",
         "thumb": "/images/chronik/bikergottesdienst-neuenrade-christleben-dortmund-2012/IMG_2086-thumb.jpg",
+        "w": 640,
+        "h": 478,
         "alt": "IMG_2086"
       }
     ],
@@ -1159,6 +1557,8 @@
     "poster": {
       "src": "/images/chronik/christleben-dortmund-2012/170612_0213.jpg",
       "thumb": "/images/chronik/christleben-dortmund-2012/170612_0213-thumb.jpg",
+      "w": 640,
+      "h": 427,
       "alt": "170612_0213"
     },
     "posterOnly": false,
@@ -1166,136 +1566,190 @@
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0034.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0034-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0034"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0035.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0035-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0035"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0162.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0162-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0162"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0163.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0163-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0163"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0167.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0167-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0167"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0168.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0168-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0168"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0173.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0173-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0173"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0195.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0195-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0195"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0200.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0200-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0200"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0202.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0202-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0202"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0203-001.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0203-001-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0203-001"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0207.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0207-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0207"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0207-001.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0207-001-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0207-001"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0210.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0210-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0210"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0211.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0211-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0211"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0213.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0213-thumb.jpg",
+        "w": 640,
+        "h": 427,
         "alt": "170612_0213"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0215.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0215-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0215"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0218.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0218-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0218"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0219.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0219-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0219"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0220.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0220-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0220"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0221.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0221-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0221"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0222.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0222-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0222"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0222-001.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0222-001-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0222-001"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0223.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0223-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0223"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0224.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0224-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0224"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0225.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0225-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0225"
       },
       {
         "src": "/images/chronik/christleben-dortmund-2012/170612_0226.jpg",
         "thumb": "/images/chronik/christleben-dortmund-2012/170612_0226-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "170612_0226"
       }
     ],
@@ -1335,6 +1789,8 @@
     "poster": {
       "src": "/images/chronik/shelter-from-the-rain-2-2012/Shelter2.jpg",
       "thumb": "/images/chronik/shelter-from-the-rain-2-2012/Shelter2-thumb.jpg",
+      "w": 640,
+      "h": 457,
       "alt": "Shelter2"
     },
     "posterOnly": false,
@@ -1342,6 +1798,8 @@
       {
         "src": "/images/chronik/shelter-from-the-rain-2-2012/Shelter2.jpg",
         "thumb": "/images/chronik/shelter-from-the-rain-2-2012/Shelter2-thumb.jpg",
+        "w": 640,
+        "h": 457,
         "alt": "Shelter2"
       }
     ],
@@ -1357,6 +1815,8 @@
     "poster": {
       "src": "/images/chronik/joyn-worship-festival-2012/Bild-113-1024x408-1.jpg",
       "thumb": "/images/chronik/joyn-worship-festival-2012/Bild-113-1024x408-1-thumb.jpg",
+      "w": 640,
+      "h": 427,
       "alt": "Bild-113-1024x408"
     },
     "posterOnly": false,
@@ -1373,6 +1833,8 @@
     "poster": {
       "src": "/images/chronik/happy-birthday-jesus-2012/2012-HBJ.jpg",
       "thumb": "/images/chronik/happy-birthday-jesus-2012/2012-HBJ-thumb.jpg",
+      "w": 450,
+      "h": 640,
       "alt": "2012 HBJ"
     },
     "posterOnly": true,
@@ -1413,6 +1875,8 @@
     "poster": {
       "src": "/images/chronik/happy-birthday-jesus-2013/2013-HBJ.jpg",
       "thumb": "/images/chronik/happy-birthday-jesus-2013/2013-HBJ-thumb.jpg",
+      "w": 451,
+      "h": 640,
       "alt": "2013 HBJ"
     },
     "posterOnly": true,
@@ -1429,6 +1893,8 @@
     "poster": {
       "src": "/images/chronik/10-jahre-bblessed-2014/10_Jahre_BBlessed.png",
       "thumb": "/images/chronik/10-jahre-bblessed-2014/10_Jahre_BBlessed-thumb.png",
+      "w": 640,
+      "h": 480,
       "alt": "10_Jahre_BBlessed"
     },
     "posterOnly": false,
@@ -1436,6 +1902,8 @@
       {
         "src": "/images/chronik/10-jahre-bblessed-2014/2015-12-19-WorshipSession.jpg",
         "thumb": "/images/chronik/10-jahre-bblessed-2014/2015-12-19-WorshipSession-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "2015-12-19 WorshipSession"
       }
     ],
@@ -1451,6 +1919,8 @@
     "poster": {
       "src": "/images/chronik/happy-birthday-jesus-2014/2014-HBJ.jpg",
       "thumb": "/images/chronik/happy-birthday-jesus-2014/2014-HBJ-thumb.jpg",
+      "w": 450,
+      "h": 640,
       "alt": "2014 HBJ"
     },
     "posterOnly": true,
@@ -1467,6 +1937,8 @@
     "poster": {
       "src": "/images/chronik/happy-birthday-jesus-2015/2015-HBJ.jpg",
       "thumb": "/images/chronik/happy-birthday-jesus-2015/2015-HBJ-thumb.jpg",
+      "w": 454,
+      "h": 640,
       "alt": "2015 HBJ"
     },
     "posterOnly": true,
@@ -1483,6 +1955,8 @@
     "poster": {
       "src": "/images/chronik/psalm-23-2016/der-herr-ist-mei-hirte2.png",
       "thumb": "/images/chronik/psalm-23-2016/der-herr-ist-mei-hirte2-thumb.png",
+      "w": 640,
+      "h": 338,
       "alt": "der-herr-ist-mei-hirte(2)"
     },
     "posterOnly": false,
@@ -1490,6 +1964,8 @@
       {
         "src": "/images/chronik/psalm-23-2016/der-herr-ist-mei-hirte2.png",
         "thumb": "/images/chronik/psalm-23-2016/der-herr-ist-mei-hirte2-thumb.png",
+        "w": 640,
+        "h": 338,
         "alt": "der-herr-ist-mei-hirte(2)"
       }
     ],
@@ -1505,6 +1981,8 @@
     "poster": {
       "src": "/images/chronik/happy-birthday-jesus-2016/2016-HBJ.jpg",
       "thumb": "/images/chronik/happy-birthday-jesus-2016/2016-HBJ-thumb.jpg",
+      "w": 452,
+      "h": 640,
       "alt": "2016 HBJ"
     },
     "posterOnly": true,
@@ -1521,6 +1999,8 @@
     "poster": {
       "src": "/images/chronik/kirchentag-berlin-wittenberg-2017/20170524_230426-1.jpg",
       "thumb": "/images/chronik/kirchentag-berlin-wittenberg-2017/20170524_230426-1-thumb.jpg",
+      "w": 640,
+      "h": 360,
       "alt": "20170524_230426"
     },
     "posterOnly": false,
@@ -1528,16 +2008,22 @@
       {
         "src": "/images/chronik/kirchentag-berlin-wittenberg-2017/20170527_185750.jpg",
         "thumb": "/images/chronik/kirchentag-berlin-wittenberg-2017/20170527_185750-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "20170527_185750"
       },
       {
         "src": "/images/chronik/kirchentag-berlin-wittenberg-2017/20170524_230426.jpg",
         "thumb": "/images/chronik/kirchentag-berlin-wittenberg-2017/20170524_230426-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "20170524_230426"
       },
       {
         "src": "/images/chronik/kirchentag-berlin-wittenberg-2017/20170524_230426-1.jpg",
         "thumb": "/images/chronik/kirchentag-berlin-wittenberg-2017/20170524_230426-1-thumb.jpg",
+        "w": 640,
+        "h": 360,
         "alt": "20170524_230426"
       }
     ],
@@ -1553,6 +2039,8 @@
     "poster": {
       "src": "/images/chronik/happy-birthday-jesus-2017/2017-HBJ.jpg",
       "thumb": "/images/chronik/happy-birthday-jesus-2017/2017-HBJ-thumb.jpg",
+      "w": 452,
+      "h": 640,
       "alt": "2017 HBJ"
     },
     "posterOnly": true,
@@ -1581,6 +2069,8 @@
     "poster": {
       "src": "/images/chronik/kirchentag-dortmund-2019-anmeldung/DEKT37_NEU_Startseite_Motiv.jpg",
       "thumb": "/images/chronik/kirchentag-dortmund-2019-anmeldung/DEKT37_NEU_Startseite_Motiv-thumb.jpg",
+      "w": 640,
+      "h": 360,
       "alt": "DEKT37_NEU_Startseite_Motiv"
     },
     "posterOnly": false,
@@ -1588,16 +2078,22 @@
       {
         "src": "/images/chronik/kirchentag-dortmund-2019-anmeldung/KiTa-DO.png",
         "thumb": "/images/chronik/kirchentag-dortmund-2019-anmeldung/KiTa-DO-thumb.png",
+        "w": 480,
+        "h": 480,
         "alt": "KiTa DO"
       },
       {
         "src": "/images/chronik/kirchentag-dortmund-2019-anmeldung/1075_2_Dortmund_Stadt.jpg",
         "thumb": "/images/chronik/kirchentag-dortmund-2019-anmeldung/1075_2_Dortmund_Stadt-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "1075_2_Dortmund_Stadt"
       },
       {
         "src": "/images/chronik/kirchentag-dortmund-2019-anmeldung/DEKT37_NEU_Startseite_Motiv.jpg",
         "thumb": "/images/chronik/kirchentag-dortmund-2019-anmeldung/DEKT37_NEU_Startseite_Motiv-thumb.jpg",
+        "w": 640,
+        "h": 360,
         "alt": "DEKT37_NEU_Startseite_Motiv"
       }
     ],
@@ -1613,6 +2109,8 @@
     "poster": {
       "src": "/images/chronik/happy-birthday-jesus-2018/Happy-Birthday-Jesus-2018.jpg",
       "thumb": "/images/chronik/happy-birthday-jesus-2018/Happy-Birthday-Jesus-2018-thumb.jpg",
+      "w": 454,
+      "h": 640,
       "alt": "Happy Birthday Jesus 2018"
     },
     "posterOnly": true,
@@ -1629,6 +2127,8 @@
     "poster": {
       "src": "/images/chronik/dekt-dortmund-2019/PHOTO-2019-06-13-20-10-53.jpg",
       "thumb": "/images/chronik/dekt-dortmund-2019/PHOTO-2019-06-13-20-10-53-thumb.jpg",
+      "w": 453,
+      "h": 640,
       "alt": "PHOTO-2019-06-13-20-10-53"
     },
     "posterOnly": false,
@@ -1636,6 +2136,8 @@
       {
         "src": "/images/chronik/dekt-dortmund-2019/PHOTO-2019-06-13-20-10-53.jpg",
         "thumb": "/images/chronik/dekt-dortmund-2019/PHOTO-2019-06-13-20-10-53-thumb.jpg",
+        "w": 453,
+        "h": 640,
         "alt": "PHOTO-2019-06-13-20-10-53"
       }
     ],
@@ -1651,6 +2153,8 @@
     "poster": {
       "src": "/images/chronik/happy-birthday-jesus-livestream-2020/Livestream-2020.jpg",
       "thumb": "/images/chronik/happy-birthday-jesus-livestream-2020/Livestream-2020-thumb.jpg",
+      "w": 640,
+      "h": 343,
       "alt": "Livestream 2020"
     },
     "posterOnly": false,
@@ -1658,11 +2162,15 @@
       {
         "src": "/images/chronik/happy-birthday-jesus-livestream-2020/HBJ-Banner.jpg",
         "thumb": "/images/chronik/happy-birthday-jesus-livestream-2020/HBJ-Banner-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "HBJ-Banner"
       },
       {
         "src": "/images/chronik/happy-birthday-jesus-livestream-2020/Livestream-2020.jpg",
         "thumb": "/images/chronik/happy-birthday-jesus-livestream-2020/Livestream-2020-thumb.jpg",
+        "w": 640,
+        "h": 343,
         "alt": "Livestream 2020"
       }
     ],
@@ -1678,6 +2186,8 @@
     "poster": {
       "src": "/images/chronik/happy-birthday-jesus-2021-trailer/traioler.jpg",
       "thumb": "/images/chronik/happy-birthday-jesus-2021-trailer/traioler-thumb.jpg",
+      "w": 640,
+      "h": 282,
       "alt": "traioler"
     },
     "posterOnly": false,
@@ -1685,6 +2195,8 @@
       {
         "src": "/images/chronik/happy-birthday-jesus-2021-trailer/traioler.jpg",
         "thumb": "/images/chronik/happy-birthday-jesus-2021-trailer/traioler-thumb.jpg",
+        "w": 640,
+        "h": 282,
         "alt": "traioler"
       }
     ],
@@ -1700,6 +2212,8 @@
     "poster": {
       "src": "/images/chronik/happy-birthday-jesus-livestream-2021/HBJ2021_head2-1.jpg",
       "thumb": "/images/chronik/happy-birthday-jesus-livestream-2021/HBJ2021_head2-1-thumb.jpg",
+      "w": 640,
+      "h": 353,
       "alt": "HBJ2021_head2"
     },
     "posterOnly": false,
@@ -1707,11 +2221,15 @@
       {
         "src": "/images/chronik/happy-birthday-jesus-livestream-2021/HBJ2021_head2.jpg",
         "thumb": "/images/chronik/happy-birthday-jesus-livestream-2021/HBJ2021_head2-thumb.jpg",
+        "w": 480,
+        "h": 480,
         "alt": "HBJ2021_head2"
       },
       {
         "src": "/images/chronik/happy-birthday-jesus-livestream-2021/HBJ2021_head2-1.jpg",
         "thumb": "/images/chronik/happy-birthday-jesus-livestream-2021/HBJ2021_head2-1-thumb.jpg",
+        "w": 640,
+        "h": 353,
         "alt": "HBJ2021_head2"
       }
     ],
@@ -1720,5 +2238,65 @@
       "url": "/media/chronik/HBJ2021_Songbook.pdf",
       "label": "Songbook zum Livestream (PDF)"
     }
+  },
+  {
+    "slug": "happy-birthday-jesus-2022",
+    "title": "Happy Birthday Jesus 2022",
+    "date": "2022-12-23",
+    "year": 2022,
+    "bodyHtml": "<p>Wie in jedem Jahr am 23. Dezember um 23:30 Uhr: der besondere Gottesdienst in der evangelischen Kirche in Herbede – mit viel Musik und der Weihnachtsgeschichte feiern wir in Jesus’ Geburtstag hinein.</p>",
+    "poster": null,
+    "posterOnly": false,
+    "images": [],
+    "youtube": null,
+    "pdf": null
+  },
+  {
+    "slug": "happy-birthday-jesus-2023",
+    "title": "Happy Birthday Jesus 2023",
+    "date": "2023-12-23",
+    "year": 2023,
+    "bodyHtml": "<p>Wie in jedem Jahr am 23. Dezember um 23:30 Uhr: der besondere Gottesdienst in der evangelischen Kirche in Herbede – mit viel Musik und der Weihnachtsgeschichte feiern wir in Jesus’ Geburtstag hinein.</p>",
+    "poster": null,
+    "posterOnly": false,
+    "images": [],
+    "youtube": null,
+    "pdf": null
+  },
+  {
+    "slug": "happy-birthday-jesus-2024",
+    "title": "Happy Birthday Jesus 2024",
+    "date": "2024-12-23",
+    "year": 2024,
+    "bodyHtml": "<p>Wie in jedem Jahr am 23. Dezember um 23:30 Uhr: der besondere Gottesdienst in der evangelischen Kirche in Herbede – mit viel Musik und der Weihnachtsgeschichte feiern wir in Jesus’ Geburtstag hinein.</p>",
+    "poster": null,
+    "posterOnly": false,
+    "images": [],
+    "youtube": null,
+    "pdf": null
+  },
+  {
+    "slug": "happy-birthday-jesus-2025",
+    "title": "Happy Birthday Jesus 2025",
+    "date": "2025-12-23",
+    "year": 2025,
+    "bodyHtml": "<p>Wie in jedem Jahr am 23. Dezember um 23:30 Uhr: der besondere Gottesdienst in der evangelischen Kirche in Herbede – mit viel Musik und der Weihnachtsgeschichte feiern wir in Jesus’ Geburtstag hinein.</p>",
+    "poster": null,
+    "posterOnly": false,
+    "images": [],
+    "youtube": null,
+    "pdf": null
+  },
+  {
+    "slug": "happy-birthday-jesus-2026",
+    "title": "Happy Birthday Jesus 2026",
+    "date": "2026-12-23",
+    "year": 2026,
+    "bodyHtml": "<p>Wie in jedem Jahr am 23. Dezember um 23:30 Uhr: der besondere Gottesdienst in der evangelischen Kirche in Herbede – mit viel Musik und der Weihnachtsgeschichte feiern wir in Jesus’ Geburtstag hinein.</p>",
+    "poster": null,
+    "posterOnly": false,
+    "images": [],
+    "youtube": null,
+    "pdf": null
   }
 ]

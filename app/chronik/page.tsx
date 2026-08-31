@@ -28,7 +28,7 @@ export default function ChronikPage() {
                   <span className="absolute -left-[23px] top-2 h-2.5 w-2.5 rounded-full bg-[var(--color-accent)]" />
                   <Link
                     href={`/chronik/${g.slug}`}
-                    className="group flex flex-col gap-3 sm:flex-row sm:items-start"
+                    className="group flex gap-4 sm:items-start"
                   >
                     {g.poster && (
                       // eslint-disable-next-line @next/next/no-img-element
@@ -36,7 +36,9 @@ export default function ChronikPage() {
                         src={g.poster.thumb}
                         alt=""
                         loading="lazy"
-                        className="h-24 w-full flex-shrink-0 rounded object-cover ring-1 ring-[var(--color-border)] sm:h-20 sm:w-28"
+                        width={g.poster.w}
+                        height={g.poster.h}
+                        className="h-auto w-20 max-h-52 flex-shrink-0 rounded object-contain bg-[var(--color-bg-alt)] ring-1 ring-[var(--color-border)] sm:w-28"
                       />
                     )}
                     <span>

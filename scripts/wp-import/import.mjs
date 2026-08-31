@@ -44,6 +44,12 @@ for (const a of attachments) {
 // zugeordneten Bilder (post_parent) genommen. `posterOnly` = grosses
 // Plakat statt Foto-Raster (Happy-Birthday-Jesus-Ankuendigungen).
 // ---------------------------------------------------------------------------
+
+// Standardtext fuer die jaehrliche "Happy Birthday Jesus"-Reihe ab 2022
+// (kein Material im alten Backup) - bei Bedarf pro Jahr ueberschreiben.
+const HBJ_BODY =
+  "<p>Wie in jedem Jahr am 23. Dezember um 23:30 Uhr: der besondere Gottesdienst in der evangelischen Kirche in Herbede – mit viel Musik und der Weihnachtsgeschichte feiern wir in Jesus’ Geburtstag hinein.</p>";
+
 const GIGS = [
   {
     slug: "gruendung-2004",
@@ -305,6 +311,38 @@ const GIGS = [
     pdfLabel: "Songbook zum Livestream (PDF)",
     poster: 2789,
   },
+  // Ab 2022 ohne Material aus dem alten Backup - die HBJ-Tradition am 23.12.
+  // laeuft weiter. Texte/Fotos hier bei Bedarf ergaenzen.
+  {
+    slug: "happy-birthday-jesus-2022",
+    date: "2022-12-23",
+    title: "Happy Birthday Jesus 2022",
+    body: HBJ_BODY,
+  },
+  {
+    slug: "happy-birthday-jesus-2023",
+    date: "2023-12-23",
+    title: "Happy Birthday Jesus 2023",
+    body: HBJ_BODY,
+  },
+  {
+    slug: "happy-birthday-jesus-2024",
+    date: "2024-12-23",
+    title: "Happy Birthday Jesus 2024",
+    body: HBJ_BODY,
+  },
+  {
+    slug: "happy-birthday-jesus-2025",
+    date: "2025-12-23",
+    title: "Happy Birthday Jesus 2025",
+    body: HBJ_BODY,
+  },
+  {
+    slug: "happy-birthday-jesus-2026",
+    date: "2026-12-23",
+    title: "Happy Birthday Jesus 2026",
+    body: HBJ_BODY,
+  },
 ];
 
 // Bandmitglieder (aus der Seite „Über uns“).
@@ -347,13 +385,22 @@ function localFileForAtt(att) {
 }
 
 const resizeCache = new Map();
-async function copyResized(att, destDir, publicPrefix, { maxWidth = 1920, quality = 82, makeThumb = false } = {}) {
+// thumbFit:
+//   "cover"  - quadratischer Ausschnitt 480x480 (Galerie-Raster)
+//   "inside" - seitenverhaeltnis-treu in eine 640er-Box (Chronik-Vorschau:
+//              A4-Plakate erscheinen hochkant, Fotos im Querformat)
+async function copyResized(
+  att,
+  destDir,
+  publicPrefix,
+  { maxWidth = 1920, quality = 82, makeThumb = false, thumbFit = "cover" } = {}
+) {
   const full = localFileForAtt(att);
   if (!full) {
     console.warn("  ! Datei fehlt fuer Attachment", att && att.id, att && att.attachedFile);
     return null;
   }
-  const cacheKey = `${full}|${destDir}|${maxWidth}|${makeThumb}`;
+  const cacheKey = `${full}|${destDir}|${maxWidth}|${makeThumb}|${thumbFit}`;
   if (resizeCache.has(cacheKey)) return resizeCache.get(cacheKey);
 
   fs.mkdirSync(destDir, { recursive: true });
@@ -370,19 +417,33 @@ async function copyResized(att, destDir, publicPrefix, { maxWidth = 1920, qualit
     img = isPng ? img.png({ quality }) : img.jpeg({ quality, mozjpeg: true });
     await img.toFile(outPath);
   }
+  const { width: w = null, height: h = null } = await sharp(outPath).metadata();
+
   let thumbName = null;
+  let thumbW = w;
+  let thumbH = h;
   if (makeThumb) {
     thumbName = `${baseName}-thumb.${ext}`;
     const thumbPath = path.join(destDir, thumbName);
+    const resizeOpts =
+      thumbFit === "inside"
+        ? { width: 640, height: 640, fit: "inside", withoutEnlargement: true }
+        : { width: 480, height: 480, fit: "cover", position: "attention" };
     if (!fs.existsSync(thumbPath)) {
-      let t = sharp(full).rotate().resize({ width: 480, height: 480, fit: "cover", position: "attention" });
+      let t = sharp(full).rotate().resize(resizeOpts);
       t = isPng ? t.png({ quality: 78 }) : t.jpeg({ quality: 78, mozjpeg: true });
       await t.toFile(thumbPath);
     }
+    const tm = await sharp(thumbPath).metadata();
+    thumbW = tm.width ?? thumbW;
+    thumbH = tm.height ?? thumbH;
   }
+
   const result = {
     src: `${publicPrefix}/${outName}`,
     thumb: thumbName ? `${publicPrefix}/${thumbName}` : `${publicPrefix}/${outName}`,
+    w: thumbW,
+    h: thumbH,
     alt: (att.title || "").replace(/SAMSUNG DIGITAL CAMERA/i, "").trim(),
   };
   resizeCache.set(cacheKey, result);
@@ -420,6 +481,7 @@ async function main() {
       poster = await copyResized(attById.get(g.poster), destDir, publicPrefix, {
         maxWidth: 1400,
         makeThumb: true,
+        thumbFit: "inside",
       });
     }
 
