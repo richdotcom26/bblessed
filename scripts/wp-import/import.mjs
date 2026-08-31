@@ -138,10 +138,10 @@ const GIGS = [
     body: "",
   },
   {
-    slug: "shelter-from-the-rain-2011",
+    slug: "kirchendach-konzert-efharisto-2011",
     date: "2011-10-01",
-    title: "Shelter From The Rain",
-    body: "<p>Gemeinsames Konzert von BBlessed und dem Chor Efharistho in der evangelischen Kirche in Herbede – der Auftakt, dem 2012 „Shelter From The Rain – II“ folgte.</p>",
+    title: "Kirchendach-Konzert mit Efharisto",
+    body: "<p>Gemeinsames Benefizkonzert von BBlessed und dem Chor Efharisto in der evangelischen Kirche in Herbede – der Erlös hilft bei der Refinanzierung des Kirchendachs. Der Auftakt der Reihe „Shelter From The Rain“, die 2012 fortgesetzt wurde.</p>",
     photoDir: "2011",
     photoLimit: 15,
   },
@@ -198,8 +198,8 @@ const GIGS = [
     date: "2012-09-28",
     title: "Shelter From The Rain – II",
     body:
-      "<p><em>Er hält seine Hand schützend über mir …</em> Gemeinsames Benefiz-Konzert der Band BBlessed und des Chores Efharistho. Special Guest: Rise Up.</p>" +
-      "<p>Nach einem erfolgreichen Auftakt im Jahr 2011 wollen wir im 20. Chorjahr des Efharistho nahtlos daran anschließen. Die Zusammenarbeit zwischen Chor und Band hat sich immer weiter vertieft, so dass sich der Zuhörer auf ein abwechslungsreiches Programm freuen darf, das dennoch Zeit zum Klönen lässt. Der gesamte Erlös hilft bei der Refinanzierung des Kirchendachs. Einlass 19:30 Uhr, Beginn 20:00 Uhr.</p>",
+      "<p><em>Er hält seine Hand schützend über mir …</em> Gemeinsames Benefiz-Konzert der Band BBlessed und des Chores Efharisto. Special Guest: Rise Up.</p>" +
+      "<p>Nach einem erfolgreichen Auftakt im Jahr 2011 wollen wir im 20. Chorjahr des Efharisto nahtlos daran anschließen. Die Zusammenarbeit zwischen Chor und Band hat sich immer weiter vertieft, so dass sich der Zuhörer auf ein abwechslungsreiches Programm freuen darf, das dennoch Zeit zum Klönen lässt. Der gesamte Erlös hilft bei der Refinanzierung des Kirchendachs. Einlass 19:30 Uhr, Beginn 20:00 Uhr.</p>",
     poster: 2591,
   },
   {
