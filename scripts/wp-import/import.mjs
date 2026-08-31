@@ -136,6 +136,12 @@ const GIGS = [
     date: "2011-06-02",
     title: "Ev. Kirchentag Dresden 2011",
     body: "",
+  },
+  {
+    slug: "shelter-from-the-rain-2011",
+    date: "2011-10-01",
+    title: "Shelter From The Rain",
+    body: "<p>Gemeinsames Konzert von BBlessed und dem Chor Efharistho in der evangelischen Kirche in Herbede – der Auftakt, dem 2012 „Shelter From The Rain – II“ folgte.</p>",
     photoDir: "2011",
     photoLimit: 15,
   },
