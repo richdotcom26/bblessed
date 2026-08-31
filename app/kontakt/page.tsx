@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
 import { kontakt } from "@/lib/content";
 
-export const metadata: Metadata = { title: "Kontakt" };
+export const metadata: Metadata = {
+  title: "Kontakt",
+  description:
+    "Kontakt und Impressum von BBLESSED – Anfragen für Gottesdienste, Kirchentage und Konzerte an kontakt@bblessed.de.",
+  alternates: { canonical: "/kontakt" },
+};
 
 export default function KontaktPage() {
   return (

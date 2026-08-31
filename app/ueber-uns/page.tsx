@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
 import { about } from "@/lib/content";
 
-export const metadata: Metadata = { title: "Über uns" };
+export const metadata: Metadata = {
+  title: "Über uns",
+  description:
+    "BBLESSED – worship band aus Witten-Herbede: die Bandgeschichte seit 2003 und die Musiker Marco Gibis, Rainer Wülbeck, Thomas Post, Frank Nelle und Mandy Rohr.",
+  alternates: { canonical: "/ueber-uns" },
+};
 
 export default function UeberUnsPage() {
   return (

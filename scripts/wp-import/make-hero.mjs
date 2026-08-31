@@ -52,3 +52,25 @@ await sharp(base, { raw: { width: info.width, height: info.height, channels: inf
 const m = await sharp(OUT).metadata();
 const kb = Math.round(fs.statSync(OUT).size / 1024);
 console.log("geschrieben:", OUT, `${m.width}x${m.height}`, kb + " KB");
+
+// ---- Open-Graph-Bild 1200x630 (Vorschau in Chat / Social) ----
+const OG = path.resolve(import.meta.dirname, "..", "..", "public", "og.jpg");
+const LOGO = path.resolve(import.meta.dirname, "..", "..", "public", "images", "logo-mask.png");
+
+const ogBg = await sharp(OUT)
+  .resize(1200, 630, { fit: "cover", position: "centre" })
+  .modulate({ brightness: 0.82 })
+  .toBuffer();
+
+const layers = [];
+if (fs.existsSync(LOGO)) {
+  const logo = await sharp(LOGO).resize({ width: 760 }).toBuffer(); // weisse Maske = Logo in Creme
+  const lm = await sharp(logo).metadata();
+  layers.push({
+    input: logo,
+    left: Math.round((1200 - lm.width) / 2),
+    top: Math.round((630 - lm.height) / 2) - 8,
+  });
+}
+await sharp(ogBg).composite(layers).jpeg({ quality: 82, mozjpeg: true }).toFile(OG);
+console.log("geschrieben:", OG, "1200x630", Math.round(fs.statSync(OG).size / 1024) + " KB");

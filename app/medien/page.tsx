@@ -2,7 +2,12 @@ import type { Metadata } from "next";
 import { media } from "@/lib/content";
 import { YouTube } from "@/components/YouTube";
 
-export const metadata: Metadata = { title: "Medien" };
+export const metadata: Metadata = {
+  title: "Medien",
+  description:
+    "Musik von BBLESSED: Audio-Ausschnitte aus Gottesdiensten und Konzerten sowie das Imagevideo der worship band aus Witten-Herbede.",
+  alternates: { canonical: "/medien" },
+};
 
 export default function MedienPage() {
   return (

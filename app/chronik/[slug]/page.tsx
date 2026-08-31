@@ -16,7 +16,29 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const gig = gigBySlug(slug);
-  return { title: gig ? `${gig.title} (${gig.year})` : "Chronik" };
+  if (!gig) return { title: "Chronik" };
+
+  const text = gig.bodyHtml
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const description =
+    (text ? `${text} · ` : "") +
+    `BBLESSED – worship band aus Witten-Herbede. Aus der Chronik: ${gig.title} (${gig.year}).`;
+  const image = gig.poster?.src ?? gig.images[0]?.src;
+
+  return {
+    title: `${gig.title} (${gig.year})`,
+    description: description.slice(0, 300),
+    alternates: { canonical: `/chronik/${gig.slug}` },
+    openGraph: {
+      type: "article",
+      title: `${gig.title} – BBLESSED`,
+      description: description.slice(0, 300),
+      url: `https://www.bblessed.de/chronik/${gig.slug}`,
+      images: image ? [{ url: image }] : undefined,
+    },
+  };
 }
 
 export default async function GigPage({ params }: { params: Promise<{ slug: string }> }) {

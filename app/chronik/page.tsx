@@ -2,7 +2,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { gigs, gigsByYear, formatGigDate } from "@/lib/content";
 
-export const metadata: Metadata = { title: "Chronik" };
+export const metadata: Metadata = {
+  title: "Chronik",
+  description:
+    "Die Chronik von BBLESSED: Gottesdienste, Kirchentage in Köln, Bremen, Dresden, Berlin und Dortmund, Bikergottesdienste und die „Happy Birthday Jesus“-Konzerte – von der Gründung 2004 bis heute.",
+  alternates: { canonical: "/chronik" },
+};
 
 export default function ChronikPage() {
   const years = gigsByYear();
