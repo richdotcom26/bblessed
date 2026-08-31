@@ -21,8 +21,13 @@ export default function HomePage() {
           <p className="text-xs uppercase tracking-[0.35em] text-[var(--color-accent-2)]">
             worship band · seit 2004
           </p>
-          <h1 className="mt-4 font-display text-5xl font-semibold tracking-wide text-[var(--color-accent)] sm:text-7xl">
-            BBLESSED
+          <h1 className="mt-6 flex justify-center">
+            <span className="sr-only">BBLESSED</span>
+            <span
+              className="logo-mark h-16 w-auto text-[var(--color-accent)] sm:h-24"
+              role="img"
+              aria-hidden="true"
+            />
           </h1>
           <p className="mx-auto mt-6 max-w-xl font-display text-xl italic text-[var(--color-fg)] sm:text-2xl">
             „Wir sind nicht nur Musiker, die christliche Musik machen, sondern Christen, die Musik

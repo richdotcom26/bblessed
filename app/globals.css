@@ -34,6 +34,16 @@ body {
   font-family: var(--font-display), Georgia, serif;
 }
 
+/* Offizielles Bandlogo als Maske – nimmt automatisch die Schriftfarbe an
+   (public/images/logo-mask.png, Seitenverhältnis 848:183). */
+.logo-mark {
+  display: inline-block;
+  aspect-ratio: 848 / 183;
+  background-color: currentColor;
+  -webkit-mask: url("/images/logo-mask.png") no-repeat center / contain;
+  mask: url("/images/logo-mask.png") no-repeat center / contain;
+}
+
 /* Fliesstext aus den Content-JSONs */
 .prose-bb {
   color: var(--color-fg);

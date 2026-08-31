@@ -19,10 +19,13 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[var(--color-bg)]">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-        <Link href="/" className="group flex items-baseline gap-2" onClick={() => setOpen(false)}>
-          <span className="font-display text-2xl font-semibold tracking-wide text-[var(--color-accent)]">
-            BBLESSED
-          </span>
+        <Link
+          href="/"
+          className="group flex items-center gap-2.5"
+          onClick={() => setOpen(false)}
+          aria-label="BBLESSED – zur Startseite"
+        >
+          <span className="logo-mark h-5 w-auto text-[var(--color-accent)]" role="img" aria-hidden="true" />
           <span className="hidden text-xs uppercase tracking-[0.2em] text-[var(--color-fg-muted)] sm:inline">
             worship band
           </span>
