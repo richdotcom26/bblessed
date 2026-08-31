@@ -138,10 +138,10 @@ const GIGS = [
     body: "",
   },
   {
-    slug: "kirchendach-konzert-efharisto-2011",
+    slug: "shelter-from-the-rain-2011",
     date: "2011-10-01",
-    title: "Kirchendach-Konzert mit Efharisto",
-    body: "<p>Gemeinsames Benefizkonzert von BBlessed und dem Chor Efharisto in der evangelischen Kirche in Herbede – der Erlös hilft bei der Refinanzierung des Kirchendachs. Der Auftakt der Reihe „Shelter From The Rain“, die 2012 fortgesetzt wurde.</p>",
+    title: "Shelter From The Rain",
+    body: "<p>Gemeinsames Benefizkonzert von BBlessed und dem Chor Efharisto in der evangelischen Kirche in Herbede – der Erlös hilft bei der Refinanzierung des Kirchendachs. Der Auftakt, dem 2012 „Shelter From The Rain – II“ folgte.</p>",
     photoDir: "2011",
     photoLimit: 15,
   },
