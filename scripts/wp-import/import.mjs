@@ -495,7 +495,7 @@ async function main() {
 
   // ---- Kontakt / Impressum (neu, sauber) ----
   const kontakt = {
-    email: "info@bblessed.de",
+    email: "kontakt@bblessed.de",
     impressum: {
       name: "Rainer Wülbeck",
       address: "Kirchstr. 8, 58456 Witten",
