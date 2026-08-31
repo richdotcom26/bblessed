@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #faf6ef;
+  --color-bg-alt: #f1e9db;
+  --color-bg-card: #ffffff;
+  --color-fg: #2c2622;
+  --color-fg-muted: #7c7064;
+  --color-accent: #b0592f;
+  --color-accent-2: #8a6d3b;
+  --color-border: #e6dccb;
+}
+
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-bg-alt: var(--color-bg-alt);
+  --color-bg-card: var(--color-bg-card);
+  --color-fg: var(--color-fg);
+  --color-fg-muted: var(--color-fg-muted);
+  --color-accent: var(--color-accent);
+  --color-accent-2: var(--color-accent-2);
+  --color-border: var(--color-border);
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans), system-ui, Arial, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+/* Fliesstext aus den Content-JSONs */
+.prose-bb {
+  color: var(--color-fg);
+  line-height: 1.8;
+}
+.prose-bb p {
+  margin: 1em 0;
+}
+.prose-bb img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+.prose-bb a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-bb strong,
+.prose-bb b {
+  font-weight: 600;
+}
+.prose-bb em {
+  font-style: italic;
+}
+.prose-bb h2,
+.prose-bb h3 {
+  font-family: var(--font-display), Georgia, serif;
+  color: var(--color-fg);
+  margin-top: 1.6em;
+  font-weight: 500;
+}
+.prose-bb blockquote {
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1.1em;
+  margin: 1.5em 0;
+  color: var(--color-fg-muted);
+  font-style: italic;
+}
+.prose-bb blockquote p:last-child {
+  font-style: normal;
+  font-size: 0.9em;
+}

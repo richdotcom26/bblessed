@@ -1,0 +1,40 @@
+{
+  "tracks": [
+    {
+      "title": "How Great Is Our God",
+      "artist": "Chris Tomlin",
+      "url": "/media/audio/How_great_is_our_god.mp3"
+    },
+    {
+      "title": "Näher zu dir",
+      "artist": "Lothar Kosse",
+      "url": "/media/audio/Naeher_zu_dir.mp3"
+    },
+    {
+      "title": "Oceans",
+      "artist": "Hillsong",
+      "url": "/media/audio/Oceans_Happy_Birthday_2017.mp3"
+    },
+    {
+      "title": "Wer weiß wohin",
+      "artist": "Johannes Falk",
+      "url": "/media/audio/Wer_weiss_wohin_20th_Anniversary_v2.mp3"
+    },
+    {
+      "title": "Hear My Prayer",
+      "artist": "BBlessed",
+      "url": "/media/audio/Hear_my_prayer.mp3"
+    },
+    {
+      "title": "You Never Let Go",
+      "artist": "Matt Redman",
+      "url": "/media/audio/You-never-let-go-1.mp3"
+    },
+    {
+      "title": "Gott allmächtig",
+      "artist": "BBlessed",
+      "url": "/media/audio/BBlessed-Gott-allmaechtig.mp3"
+    }
+  ],
+  "imageVideoYoutube": "v6B3Izo2Shk"
+}

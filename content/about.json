@@ -1,0 +1,37 @@
+{
+  "intro": "2003 ist BBLESSED entstanden – in Witten-Herbede im Ruhrpott – aus einer Gitarrentruppe bei Jugendandachten rund um den Billardtisch. Die Idee war von Anfang an, Musik mit dem Glauben an Gott zu verbinden und die Reihe „Schock deine Nachbarn – geh in den Gottesdienst“ des Jesus-Inside-Teams aus Herbede musikalisch mitzugestalten. Wir verstehen uns nicht nur als Musiker, die christliche Musik machen, sondern als Christen, die Musik machen – jeder mit seiner eigenen Sicht und eigenen Aspekten. Genauso halten wir es mit den Songs. So treffen musikalisches Können und Ehrlichkeit im Umgang mit dem Glauben zusammen, bei der Mitgestaltung von Gottesdiensten ebenso wie bei Konzerten.",
+  "quote": "Wir sind nicht nur Musiker, die christliche Musik machen, sondern Christen, die Musik machen.",
+  "outro": "Erfahrung und Flexibilität haben sich durch unzählige Gottesdienste und größere Veranstaltungen auch außerhalb des eigenen Kirchenkreises eingestellt – durch die Mitwirkung bei JesusHouse Witten, den Ev. Kirchentagen 2007 in Köln, 2009 in Bremen und 2011 in Dresden, bei Bikergottesdiensten vom Nürburgring bis ins Sauerland. „Plugged“ oder „unplugged“, vor 30 oder 1.000 Leuten. Wir bewegen uns zwischen Rock, Pop und Folk, gecovert und selbst komponiert, auf Deutsch und auf Englisch … authentisch.",
+  "members": [
+    {
+      "name": "Marco Gibis",
+      "role": "Gesang, Akustik- und E-Gitarre",
+      "photo": "/images/band/Marco.jpg",
+      "position": "center 20%"
+    },
+    {
+      "name": "Rainer Wülbeck",
+      "role": "E-Gitarre und Akustikgitarre",
+      "photo": "/images/band/1-IMG_01179.jpg",
+      "position": "center"
+    },
+    {
+      "name": "Thomas Post",
+      "role": "Schlagzeug und Background-Gesang",
+      "photo": "/images/band/ToPo.jpg",
+      "position": "center"
+    },
+    {
+      "name": "Frank Nelle",
+      "role": "E-Bass und Kontrabass",
+      "photo": "/images/band/FrankKopie.jpg",
+      "position": "center"
+    },
+    {
+      "name": "Mandy Rohr",
+      "role": "Percussion und Multitalent",
+      "photo": "/images/band/Mandy.jpg",
+      "position": "center"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { gigs, gigsByYear, formatGigDate } from "@/lib/content";
+
+export const metadata: Metadata = { title: "Chronik" };
+
+export default function ChronikPage() {
+  const years = gigsByYear();
+
+  return (
+    <div className="mx-auto max-w-4xl px-4 py-16">
+      <h1 className="font-display text-4xl font-semibold text-[var(--color-accent)] sm:text-5xl">
+        Chronik
+      </h1>
+      <p className="mt-4 max-w-xl text-[var(--color-fg-muted)]">
+        Von der Gründung 2004 bis zu den Happy-Birthday-Jesus-Livestreams – {gigs.length} Einträge aus
+        Gottesdiensten, Kirchentagen und Konzerten. Ein Teil des Archivs ging beim Spam-Angriff auf
+        die alte Seite verloren.
+      </p>
+
+      <div className="mt-12 space-y-12">
+        {years.map(([year, list]) => (
+          <section key={year}>
+            <h2 className="font-display text-2xl font-semibold text-[var(--color-accent-2)]">{year}</h2>
+            <ol className="mt-4 space-y-4 border-l border-[var(--color-border)] pl-5">
+              {list.map((g) => (
+                <li key={g.slug} className="relative">
+                  <span className="absolute -left-[23px] top-2 h-2.5 w-2.5 rounded-full bg-[var(--color-accent)]" />
+                  <Link
+                    href={`/chronik/${g.slug}`}
+                    className="group flex flex-col gap-3 sm:flex-row sm:items-start"
+                  >
+                    {g.poster && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={g.poster.thumb}
+                        alt=""
+                        loading="lazy"
+                        className="h-24 w-full flex-shrink-0 rounded object-cover ring-1 ring-[var(--color-border)] sm:h-20 sm:w-28"
+                      />
+                    )}
+                    <span>
+                      <span className="block text-xs text-[var(--color-fg-muted)]">
+                        {formatGigDate(g.date)}
+                      </span>
+                      <span className="font-display text-lg font-medium text-[var(--color-fg)] group-hover:text-[var(--color-accent)]">
+                        {g.title}
+                      </span>
+                      {g.images.length > 0 && (
+                        <span className="mt-0.5 block text-xs text-[var(--color-fg-muted)]">
+                          {g.images.length} {g.images.length === 1 ? "Foto" : "Fotos"}
+                        </span>
+                      )}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))}
+      </div>
+    </div>
+  );
+}
