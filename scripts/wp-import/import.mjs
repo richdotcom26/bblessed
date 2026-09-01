@@ -294,20 +294,6 @@ const GIGS = [
     posterOnly: true,
   },
   {
-    slug: "neue-homepage-2018",
-    date: "2018-09-21",
-    title: "Neue Homepage",
-    body:
-      "<p>Hallo zusammen! Unsere alte Homepage ist leider durch einen Spam-Angriff geschrottet worden. Mit ihr sind viele Bilder und Beiträge vergangener Gottesdienste, Kirchentage und anderer Feiern ins Internet-Nirvana geschickt worden. Manche Beiträge konnten gerettet werden, sehen nur ein wenig komisch aus :-) Damit wir wieder eine Visitenkarte unserer Musik und unserer Band im Netz haben, bauen wir unsere Seite nach und nach wieder auf.</p><p>Bis bald!</p>",
-  },
-  {
-    slug: "kirchentag-dortmund-2019-anmeldung",
-    date: "2018-09-26",
-    title: "Kirchentag Dortmund 2019",
-    body: "<p>Unsere Anmeldung für den Kirchentag in Dortmund ist raus (-: Hoffen wir mal, dass wir dabei sein dürfen.</p>",
-    poster: 2605,
-  },
-  {
     slug: "happy-birthday-jesus-2018",
     date: "2018-12-23",
     title: "Happy Birthday Jesus 2018",
@@ -316,10 +302,11 @@ const GIGS = [
     posterOnly: true,
   },
   {
-    slug: "dekt-dortmund-2019",
+    slug: "kirchentag-dortmund-2019",
     date: "2019-06-17",
-    title: "Wir sind beim DEKT in Dortmund",
-    body: "<p>BBlessed beim Deutschen Evangelischen Kirchentag 2019 in Dortmund.</p>",
+    title: "Kirchentag 2019 in Dortmund",
+    body:
+      "<p>Schon im Herbst 2018 war unsere Anmeldung für den Kirchentag in Dortmund raus – und es hat geklappt: BBlessed spielte beim Deutschen Evangelischen Kirchentag 2019 „Classic Praise &amp; Worship“ in Dortmund.</p>",
     poster: 2665,
     photoDir: "2019 Kirchentag DO",
   },
@@ -677,8 +664,6 @@ const SLUG_TO_POSTID = {
   "10-jahre-bblessed-2014": 2196,
   "psalm-23-2016": 2606,
   "kirchentag-berlin-wittenberg-2017": 2075,
-  "kirchentag-dortmund-2019-anmeldung": 2594,
-  "dekt-dortmund-2019": 2664,
   "happy-birthday-jesus-livestream-2020": 2668,
   "happy-birthday-jesus-2021-trailer": 2738,
   "happy-birthday-jesus-livestream-2021": 2785,

@@ -2874,58 +2874,6 @@
     "pdf": null
   },
   {
-    "slug": "neue-homepage-2018",
-    "title": "Neue Homepage",
-    "date": "2018-09-21",
-    "year": 2018,
-    "bodyHtml": "<p>Hallo zusammen! Unsere alte Homepage ist leider durch einen Spam-Angriff geschrottet worden. Mit ihr sind viele Bilder und Beiträge vergangener Gottesdienste, Kirchentage und anderer Feiern ins Internet-Nirvana geschickt worden. Manche Beiträge konnten gerettet werden, sehen nur ein wenig komisch aus :-) Damit wir wieder eine Visitenkarte unserer Musik und unserer Band im Netz haben, bauen wir unsere Seite nach und nach wieder auf.</p><p>Bis bald!</p>",
-    "poster": null,
-    "posterOnly": false,
-    "images": [],
-    "youtube": null,
-    "pdf": null
-  },
-  {
-    "slug": "kirchentag-dortmund-2019-anmeldung",
-    "title": "Kirchentag Dortmund 2019",
-    "date": "2018-09-26",
-    "year": 2018,
-    "bodyHtml": "<p>Unsere Anmeldung für den Kirchentag in Dortmund ist raus (-: Hoffen wir mal, dass wir dabei sein dürfen.</p>",
-    "poster": {
-      "src": "/images/chronik/kirchentag-dortmund-2019-anmeldung/DEKT37_NEU_Startseite_Motiv.jpg",
-      "thumb": "/images/chronik/kirchentag-dortmund-2019-anmeldung/DEKT37_NEU_Startseite_Motiv-thumb.jpg",
-      "w": 640,
-      "h": 360,
-      "alt": "DEKT37_NEU_Startseite_Motiv"
-    },
-    "posterOnly": false,
-    "images": [
-      {
-        "src": "/images/chronik/kirchentag-dortmund-2019-anmeldung/KiTa-DO.png",
-        "thumb": "/images/chronik/kirchentag-dortmund-2019-anmeldung/KiTa-DO-thumb.png",
-        "w": 480,
-        "h": 480,
-        "alt": "KiTa DO"
-      },
-      {
-        "src": "/images/chronik/kirchentag-dortmund-2019-anmeldung/1075_2_Dortmund_Stadt.jpg",
-        "thumb": "/images/chronik/kirchentag-dortmund-2019-anmeldung/1075_2_Dortmund_Stadt-thumb.jpg",
-        "w": 480,
-        "h": 480,
-        "alt": "1075_2_Dortmund_Stadt"
-      },
-      {
-        "src": "/images/chronik/kirchentag-dortmund-2019-anmeldung/DEKT37_NEU_Startseite_Motiv.jpg",
-        "thumb": "/images/chronik/kirchentag-dortmund-2019-anmeldung/DEKT37_NEU_Startseite_Motiv-thumb.jpg",
-        "w": 640,
-        "h": 360,
-        "alt": "DEKT37_NEU_Startseite_Motiv"
-      }
-    ],
-    "youtube": null,
-    "pdf": null
-  },
-  {
     "slug": "happy-birthday-jesus-2018",
     "title": "Happy Birthday Jesus 2018",
     "date": "2018-12-23",
@@ -2940,74 +2888,6 @@
     },
     "posterOnly": true,
     "images": [],
-    "youtube": null,
-    "pdf": null
-  },
-  {
-    "slug": "dekt-dortmund-2019",
-    "title": "Wir sind beim DEKT in Dortmund",
-    "date": "2019-06-17",
-    "year": 2019,
-    "bodyHtml": "<p>BBlessed beim Deutschen Evangelischen Kirchentag 2019 in Dortmund.</p>",
-    "poster": {
-      "src": "/images/chronik/dekt-dortmund-2019/PHOTO-2019-06-13-20-10-53.jpg",
-      "thumb": "/images/chronik/dekt-dortmund-2019/PHOTO-2019-06-13-20-10-53-thumb.jpg",
-      "w": 453,
-      "h": 640,
-      "alt": "PHOTO-2019-06-13-20-10-53"
-    },
-    "posterOnly": false,
-    "images": [
-      {
-        "src": "/images/chronik/dekt-dortmund-2019/6f0a6178-83d1-4bef-b233-1bfa086b6fb5.jpg",
-        "thumb": "/images/chronik/dekt-dortmund-2019/6f0a6178-83d1-4bef-b233-1bfa086b6fb5-thumb.jpg",
-        "w": 480,
-        "h": 480,
-        "alt": ""
-      },
-      {
-        "src": "/images/chronik/dekt-dortmund-2019/26cff206-09d0-4943-ac7e-5be97e68e3af.jpg",
-        "thumb": "/images/chronik/dekt-dortmund-2019/26cff206-09d0-4943-ac7e-5be97e68e3af-thumb.jpg",
-        "w": 480,
-        "h": 480,
-        "alt": ""
-      },
-      {
-        "src": "/images/chronik/dekt-dortmund-2019/3090f4cf-7d4c-43bf-93d1-bea8edff4aba.jpg",
-        "thumb": "/images/chronik/dekt-dortmund-2019/3090f4cf-7d4c-43bf-93d1-bea8edff4aba-thumb.jpg",
-        "w": 480,
-        "h": 480,
-        "alt": ""
-      },
-      {
-        "src": "/images/chronik/dekt-dortmund-2019/a850adf5-8aea-44aa-b4e4-fd6aea4049a7.jpg",
-        "thumb": "/images/chronik/dekt-dortmund-2019/a850adf5-8aea-44aa-b4e4-fd6aea4049a7-thumb.jpg",
-        "w": 480,
-        "h": 480,
-        "alt": ""
-      },
-      {
-        "src": "/images/chronik/dekt-dortmund-2019/aa93e84d-f9f9-495d-bf13-d903013bea03.jpg",
-        "thumb": "/images/chronik/dekt-dortmund-2019/aa93e84d-f9f9-495d-bf13-d903013bea03-thumb.jpg",
-        "w": 480,
-        "h": 480,
-        "alt": ""
-      },
-      {
-        "src": "/images/chronik/dekt-dortmund-2019/b4fecdad-1be4-4b00-bd1b-9dc215867395.jpg",
-        "thumb": "/images/chronik/dekt-dortmund-2019/b4fecdad-1be4-4b00-bd1b-9dc215867395-thumb.jpg",
-        "w": 480,
-        "h": 480,
-        "alt": ""
-      },
-      {
-        "src": "/images/chronik/dekt-dortmund-2019/ba2a5062-37d3-418b-8244-523d4858f442.jpg",
-        "thumb": "/images/chronik/dekt-dortmund-2019/ba2a5062-37d3-418b-8244-523d4858f442-thumb.jpg",
-        "w": 480,
-        "h": 480,
-        "alt": ""
-      }
-    ],
     "youtube": null,
     "pdf": null
   },
@@ -3263,6 +3143,74 @@
       {
         "src": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_434.jpg",
         "thumb": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_434-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      }
+    ],
+    "youtube": null,
+    "pdf": null
+  },
+  {
+    "slug": "kirchentag-dortmund-2019",
+    "title": "Kirchentag 2019 in Dortmund",
+    "date": "2019-06-17",
+    "year": 2019,
+    "bodyHtml": "<p>Schon im Herbst 2018 war unsere Anmeldung für den Kirchentag in Dortmund raus – und es hat geklappt: BBlessed spielte beim Deutschen Evangelischen Kirchentag 2019 „Classic Praise &amp; Worship“ in Dortmund.</p>",
+    "poster": {
+      "src": "/images/chronik/kirchentag-dortmund-2019/PHOTO-2019-06-13-20-10-53.jpg",
+      "thumb": "/images/chronik/kirchentag-dortmund-2019/PHOTO-2019-06-13-20-10-53-thumb.jpg",
+      "w": 453,
+      "h": 640,
+      "alt": ""
+    },
+    "posterOnly": false,
+    "images": [
+      {
+        "src": "/images/chronik/kirchentag-dortmund-2019/6f0a6178-83d1-4bef-b233-1bfa086b6fb5.jpg",
+        "thumb": "/images/chronik/kirchentag-dortmund-2019/6f0a6178-83d1-4bef-b233-1bfa086b6fb5-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dortmund-2019/26cff206-09d0-4943-ac7e-5be97e68e3af.jpg",
+        "thumb": "/images/chronik/kirchentag-dortmund-2019/26cff206-09d0-4943-ac7e-5be97e68e3af-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dortmund-2019/3090f4cf-7d4c-43bf-93d1-bea8edff4aba.jpg",
+        "thumb": "/images/chronik/kirchentag-dortmund-2019/3090f4cf-7d4c-43bf-93d1-bea8edff4aba-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dortmund-2019/a850adf5-8aea-44aa-b4e4-fd6aea4049a7.jpg",
+        "thumb": "/images/chronik/kirchentag-dortmund-2019/a850adf5-8aea-44aa-b4e4-fd6aea4049a7-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dortmund-2019/aa93e84d-f9f9-495d-bf13-d903013bea03.jpg",
+        "thumb": "/images/chronik/kirchentag-dortmund-2019/aa93e84d-f9f9-495d-bf13-d903013bea03-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dortmund-2019/b4fecdad-1be4-4b00-bd1b-9dc215867395.jpg",
+        "thumb": "/images/chronik/kirchentag-dortmund-2019/b4fecdad-1be4-4b00-bd1b-9dc215867395-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/kirchentag-dortmund-2019/ba2a5062-37d3-418b-8244-523d4858f442.jpg",
+        "thumb": "/images/chronik/kirchentag-dortmund-2019/ba2a5062-37d3-418b-8244-523d4858f442-thumb.jpg",
         "w": 480,
         "h": 480,
         "alt": ""
