@@ -2959,11 +2959,53 @@
     "posterOnly": false,
     "images": [
       {
-        "src": "/images/chronik/dekt-dortmund-2019/PHOTO-2019-06-13-20-10-53.jpg",
-        "thumb": "/images/chronik/dekt-dortmund-2019/PHOTO-2019-06-13-20-10-53-thumb.jpg",
-        "w": 453,
-        "h": 640,
-        "alt": "PHOTO-2019-06-13-20-10-53"
+        "src": "/images/chronik/dekt-dortmund-2019/6f0a6178-83d1-4bef-b233-1bfa086b6fb5.jpg",
+        "thumb": "/images/chronik/dekt-dortmund-2019/6f0a6178-83d1-4bef-b233-1bfa086b6fb5-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/dekt-dortmund-2019/26cff206-09d0-4943-ac7e-5be97e68e3af.jpg",
+        "thumb": "/images/chronik/dekt-dortmund-2019/26cff206-09d0-4943-ac7e-5be97e68e3af-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/dekt-dortmund-2019/3090f4cf-7d4c-43bf-93d1-bea8edff4aba.jpg",
+        "thumb": "/images/chronik/dekt-dortmund-2019/3090f4cf-7d4c-43bf-93d1-bea8edff4aba-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/dekt-dortmund-2019/a850adf5-8aea-44aa-b4e4-fd6aea4049a7.jpg",
+        "thumb": "/images/chronik/dekt-dortmund-2019/a850adf5-8aea-44aa-b4e4-fd6aea4049a7-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/dekt-dortmund-2019/aa93e84d-f9f9-495d-bf13-d903013bea03.jpg",
+        "thumb": "/images/chronik/dekt-dortmund-2019/aa93e84d-f9f9-495d-bf13-d903013bea03-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/dekt-dortmund-2019/b4fecdad-1be4-4b00-bd1b-9dc215867395.jpg",
+        "thumb": "/images/chronik/dekt-dortmund-2019/b4fecdad-1be4-4b00-bd1b-9dc215867395-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/dekt-dortmund-2019/ba2a5062-37d3-418b-8244-523d4858f442.jpg",
+        "thumb": "/images/chronik/dekt-dortmund-2019/ba2a5062-37d3-418b-8244-523d4858f442-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
       }
     ],
     "youtube": null,
@@ -3151,6 +3193,81 @@
     },
     "posterOnly": true,
     "images": [],
+    "youtube": null,
+    "pdf": null
+  },
+  {
+    "slug": "verabschiedung-michael-dettmann-2026",
+    "title": "Verabschiedung Michael Dettmann",
+    "date": "2026-07-12",
+    "year": 2026,
+    "bodyHtml": "<p>Abschiedsgottesdienst für Michael Dettmann in Bochum Harpen.</p>",
+    "poster": {
+      "src": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_37.jpg",
+      "thumb": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_37-thumb.jpg",
+      "w": 480,
+      "h": 480,
+      "alt": ""
+    },
+    "posterOnly": false,
+    "images": [
+      {
+        "src": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_37.jpg",
+        "thumb": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_37-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_38.jpg",
+        "thumb": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_38-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_40.jpg",
+        "thumb": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_40-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_47.jpg",
+        "thumb": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_47-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_402.jpg",
+        "thumb": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_402-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_403.jpg",
+        "thumb": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_403-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_412.jpg",
+        "thumb": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_412-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      },
+      {
+        "src": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_434.jpg",
+        "thumb": "/images/chronik/verabschiedung-michael-dettmann-2026/WhatsApp_Image_2026-09-01_at_11_47_434-thumb.jpg",
+        "w": 480,
+        "h": 480,
+        "alt": ""
+      }
+    ],
     "youtube": null,
     "pdf": null
   }

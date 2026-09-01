@@ -321,6 +321,7 @@ const GIGS = [
     title: "Wir sind beim DEKT in Dortmund",
     body: "<p>BBlessed beim Deutschen Evangelischen Kirchentag 2019 in Dortmund.</p>",
     poster: 2665,
+    photoDir: "2019 Kirchentag DO",
   },
   {
     slug: "happy-birthday-jesus-2019",
@@ -390,8 +391,15 @@ const GIGS = [
     posterFile: "HBJ-2025.JPG",
     posterOnly: true,
   },
-  // Kuenftige Termine (auch HBJ 2026) stehen in content/termine.json und
-  // rutschen automatisch in die Chronik, sobald ihr Datum vergangen ist.
+  {
+    slug: "verabschiedung-michael-dettmann-2026",
+    date: "2026-07-12",
+    title: "Verabschiedung Michael Dettmann",
+    body: "<p>Abschiedsgottesdienst für Michael Dettmann in Bochum Harpen.</p>",
+    photoDir: "C:/Users/RainerWülbeck/OneDrive - dWERK GmbH & Co KG/Claude Code 1/BBlessed/Micha",
+  },
+  // Kuenftige Termine stehen in content/termine.json und rutschen automatisch
+  // in die Chronik, sobald ihr Datum vergangen ist.
 ];
 
 // Bandmitglieder (aus der Seite „Über uns“).
