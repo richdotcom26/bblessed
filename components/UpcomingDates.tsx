@@ -75,9 +75,14 @@ export function UpcomingDates({ termine }: { termine: Termin[] }) {
                     <p className="font-display text-lg leading-tight text-[var(--color-fg)]">
                       {t.title}
                     </p>
-                    <p className="mt-1 text-sm text-[var(--color-fg-muted)]">{t.location}</p>
+                    <p className="mt-1 text-sm text-[var(--color-fg-muted)]">
+                      {t.time && (
+                        <span className="font-medium text-[var(--color-accent-2)]">{t.time} · </span>
+                      )}
+                      {t.location}
+                    </p>
                     {t.note && (
-                      <p className="mt-1 text-sm text-[var(--color-fg-muted)]">{t.note}</p>
+                      <p className="mt-0.5 text-sm text-[var(--color-fg-muted)]">{t.note}</p>
                     )}
                   </div>
                 </li>

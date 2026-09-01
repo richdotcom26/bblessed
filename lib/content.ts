@@ -42,6 +42,7 @@ export type Media = { tracks: Track[]; imageVideoYoutube: string };
 export type Termin = {
   slug: string;
   date: string; // ISO YYYY-MM-DD
+  time?: string; // z.B. "19:00 Uhr"
   title: string;
   location: string;
   note?: string;
@@ -78,7 +79,8 @@ const terminGigs: Gig[] = termine
     title: t.title,
     date: t.date,
     year: Number(t.date.slice(0, 4)),
-    bodyHtml: `<p>${t.location}.</p>${t.note ? `<p>${t.note}</p>` : ""}`,
+    bodyHtml:
+      `<p>${t.location}${t.time ? `, ${t.time}` : ""}.</p>` + (t.note ? `<p>${t.note}</p>` : ""),
     poster: null,
     posterOnly: false,
     images: [],

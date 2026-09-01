@@ -8,13 +8,16 @@
   {
     "slug": "kneipengottesdienst-gluehweintreff-2026",
     "date": "2026-12-04",
+    "time": "19:00 Uhr",
     "title": "Kneipengottesdienst mit anschließender Musik",
     "location": "Glühweintreff Herbede"
   },
   {
     "slug": "happy-birthday-jesus-2026",
     "date": "2026-12-23",
+    "time": "23:30 Uhr",
     "title": "Happy Birthday Jesus 2026",
-    "location": "Ev. Kirche Herbede"
+    "location": "Ev. Kirche Herbede",
+    "note": "Glühwein ab 22:00 Uhr"
   }
 ]
